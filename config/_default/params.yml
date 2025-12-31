@@ -7,16 +7,16 @@
 menu:
   - name: home
     url: ""
-    icon: "../images/Main_Swimming4_PC_E.png" # default use taichi icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1'
+    icon: "images/Main_Swimming4_PC_E.png" # default use taichi icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1'
   - name: archives
     url: "archives"
-    icon: "../images/Main_Swimming4_PC_J.png"
+    icon: "images/Main_Swimming4_PC_J.png"
   - name: about
     url: "about"
-    icon: "../images/Main_Swimming4_PC_G.png"
+    icon: "images/Main_Swimming4_PC_G.png"
   # - name: character
   #   url: "character"
-  #   icon: "../images/Main_Swimming4_PC_A.png"
+  #   icon: "images/Main_Swimming4_PC_A.png"
 
 mainSections: ["post"]
 # 年，月，日及时间的格式化样式
@@ -99,7 +99,7 @@ footer:
   count: true
   busuanzi: true
   icon:
-    url: "../images/Main_Swimming4_PC_E.png" # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
+    url: "images/Main_Swimming4_PC_E.png" # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
     rotate: false
     mask: false # whether to use the images as a mask
 
@@ -504,7 +504,7 @@ top:
   enable: true
   position: right # left or right
   icon:
-    url: "../images/taichi.png" # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
+    url: "images/taichi.png" # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
     rotate: true
     mask: true # whether to use the images as a mask
 
@@ -539,7 +539,7 @@ sponsor:
     ja: コーヒーを買ってください
     pt-BR: Compre-me um café
   icon:
-    url: "../images/taichi.png" # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
+    url: "images/taichi.png" # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
     rotate: true
     mask: true # whether to use the images as a mask
   qr:
