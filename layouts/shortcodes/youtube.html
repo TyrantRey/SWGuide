@@ -79,19 +79,14 @@ Renders an embedded YouTube video.
     {{- /* Define src attribute. */}}
     {{- $host := cond $pc.PrivacyEnhanced "www.youtube-nocookie.com" "www.youtube.com" }}
     {{- $src := printf "https://%s/embed/%s" $host $id }}
-    {{- $params := dict
-      "autoplay" $autoplay
-      "controls" $controls
-      "end" $end
-      "mute" $mute
-      "start" $start
-      "loop" $loop
-    }}
+    {{- $query := "" }}
     {{- if $loop }}
-      {{- $params = merge $params (dict "playlist" $id) }}
+      {{- $query = querify "autoplay" $autoplay "controls" $controls "end" $end "mute" $mute "start" $start "loop" $loop "playlist" $id }}
+    {{- else }}
+      {{- $query = querify "autoplay" $autoplay "controls" $controls "end" $end "mute" $mute "start" $start "loop" $loop }}
     {{- end }}
-    {{- with querify $params }}
-      {{- $src = printf "%s?%s" $src . }}
+    {{- if $query }}
+      {{- $src = printf "%s?%s" $src $query }}
     {{- end }}
 
     {{- /* Set div attributes. */}}
