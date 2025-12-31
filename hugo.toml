@@ -1,4 +1,4 @@
-baseURL = 'https://tyrantrey.github.io/'
+baseURL = 'https://tyrantrey.github.io/SWGuide'
 title = 'Soulworker 靈魂行者退坑指南'
 theme = "reimu"
 languageCode = 'zh-TW'
