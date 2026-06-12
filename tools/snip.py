@@ -162,7 +162,7 @@ def capture_loop(region: tuple[int, int, int, int], outdir: Path, do_beep: bool)
 
     def on_press(key) -> bool | None:
         nonlocal action, n
-        if key == keyboard.Key.enter:
+        if key == keyboard.Key.alt_l:
             path = save_region(region, outdir)
             n += 1
             print(f"  [{n}] saved {path.name}")
@@ -181,7 +181,7 @@ def capture_loop(region: tuple[int, int, int, int], outdir: Path, do_beep: bool)
             return False
         return None
 
-    print(f"範圍已設定 {region}.  ENTER=截圖 · R=重選 · ESC/Q=結束")
+    print(f"範圍已設定 {region}.  ALT=截圖 · R=重選 · ESC/Q=結束")
     with keyboard.Listener(on_press=on_press) as listener:
         listener.join()
     return action
