@@ -48,3 +48,96 @@ uv run tools/steam_news.py --appid 730 --output ./steam
   `feedlabel`, `feedname`, `appid`, optional `tags`) followed by the announcement body
   with Steam BBCode (`[img]`, `[url]`, `[b]`, `[h1]`, lists, quotes, …) converted to
   Markdown and `{STEAM_CLAN_IMAGE}` rewritten to Steam's CDN host.
+
+## ar_ocr.py
+
+OCRs SoulWorker **AR-card** images through an OpenAI-compatible vision endpoint and
+returns the structured fields as JSON.
+
+```
+AR-card image  ->  downscale + JPEG  ->  gpt-5.4 vision  ->  {卡名 星數 等級 稀有度 類型 能力名字 能力描述}
+```
+
+| Field      | Type   | Rule                                                                      |
+| ---------- | ------ | ------------------------------------------------------------------------- |
+| `卡名`     | string | Card name.                                                                |
+| `星數`     | int    | Number of stars.                                                          |
+| `等級`     | int    | Enhancement level, `0`/`1`/`2` (the `+0`/`+1`/`+2` badge).                |
+| `稀有度`   | string | By star **colour**: `神秘`=purple, `隱藏`=light-blue, `一般`=yellow.       |
+| `類型`     | string | `主動` (active) / `被動` (passive) / `核心` (core).                        |
+| `能力名字` | string | Ability name.                                                             |
+| `能力描述` | string | Ability description.                                                       |
+
+### Setup
+
+The endpoint `https://llm.kurumi-tokisaki.com/v1` needs a token. Put it in a `.env`
+at the repo root (already git-ignored):
+
+```
+API_KEY=sk-...
+```
+
+Any of `API_KEY` / `KURUMI_API_KEY` / `OPENAI_API_KEY` is accepted. Optional overrides:
+`KURUMI_MODEL`, `KURUMI_BASE_URL`, `KURUMI_MAX_PX`, `KURUMI_USER_AGENT`.
+
+### Usage
+
+```bash
+uv run tools/ar_ocr.py card.png                              # prints one JSON object
+uv run tools/ar_ocr.py "content/post/系統/AR卡篇/1星AR卡" --save-dir ./ar-cards
+uv run tools/ar_ocr.py card.png --model gpt-5.4 --max-px 1536
+uv run tools/ar_ocr.py card.png --dry-run                    # build request, no API call
+```
+
+| Flag           | Default                          | Meaning                                              |
+| -------------- | -------------------------------- | ---------------------------------------------------- |
+| `images`       | —                                | Image file(s) or folder(s) of AR-card images.        |
+| `--model`      | `gpt-5.4`                        | Vision model id.                                     |
+| `--base-url`   | `…kurumi-tokisaki.com/v1`        | OpenAI-compatible base URL.                          |
+| `--api-key`    | _(from env/.env)_                | Override the key.                                    |
+| `--save-dir`   | _(none)_                         | Write one `<name>.json` per image here.              |
+| `--skip-existing`| —                              | With `--save-dir`, skip images that already have a `<name>.json` (don't re-OCR / re-charge). |
+| `--max-px`     | `1536`                           | Cap the longest image side before sending.           |
+| `--list-models`| —                                | List models your token can use (may be blocked).     |
+| `--dry-run`    | —                                | Report the request without calling the API.          |
+
+### Notes
+
+- **gpt-5.4** is the working vision model on this gateway (most OpenAI/Claude/Gemini
+  model names return `無可用管道`). `gemini-2.5-flash` also works.
+- The endpoint is behind **Cloudflare**, whose WAF blocks the openai SDK's default
+  `User-Agent: OpenAI/Python` (`403 Your request was blocked.`). The tool sends a
+  browser User-Agent so requests get through — override with `KURUMI_USER_AGENT`.
+- Images are flattened to RGB, capped at `--max-px`, and JPEG-encoded to keep the
+  request small; `int` fields are coerced (e.g. `"+2"` → `2`) and the reply is parsed
+  even if the model wraps it in a ```` ```json ```` fence.
+
+## build_ar_md.py
+
+Aggregates the per-image JSONs from `ar_ocr.py --save-dir` into a Markdown card
+section grouped by 類型, ready to splice into `<N>星AR卡.md`.
+
+```bash
+uv run tools/build_ar_md.py tools/.ocr-cache/1星                       # text-only tables
+uv run tools/build_ar_md.py tools/.ocr-cache/1星 --img-dir "content/post/系統/AR卡篇/1星AR卡"
+```
+
+Collapses duplicate rows (NFKC-normalized, so full-width vs half-width parens/numerals
+fold together), sorts by 卡名 then 等級, and emits a `卡名 | 等級 | 稀有度 | 能力 | 效果`
+table per 主動 / 被動 / 核心 group. Pure-stdlib (no deps). With `--img-dir` it prepends a
+`圖` column of card thumbnails (`![](file-….png)`) and **skips orphaned cache entries**
+whose source image has since been deleted, so the page never carries a broken ref.
+
+### AR-card pipeline (how the 1-star page was built)
+
+```bash
+# 1. OCR every screenshot into a per-card JSON cache (idempotent across runs)
+uv run tools/ar_ocr.py "content/post/系統/AR卡篇/1星AR卡" \
+    --save-dir "tools/.ocr-cache/1星" --skip-existing
+# 2. Aggregate the cache into grouped Markdown tables (with card thumbnails)
+uv run tools/build_ar_md.py "tools/.ocr-cache/1星" --img-dir "content/post/系統/AR卡篇/1星AR卡"
+# 3. Splice the tables into content/post/系統/AR卡篇/1星AR卡.md
+```
+
+`tools/.ocr-cache/` is git-ignored; re-running step 1 only OCRs newly-added images.
+The same flow works for `2星AR卡` … `5星AR卡` / `神秘AR卡` — just point at that folder.

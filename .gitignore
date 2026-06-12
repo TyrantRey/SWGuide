@@ -24,3 +24,8 @@ resources/
 _migration-baseline-*.txt
 
 **/__pycache__/**
+
+# OCR agent per-image result cache (regenerable from the card images)
+tools/.ocr-cache/
+
+.env

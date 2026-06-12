@@ -294,6 +294,11 @@ body {
   display: block;
   margin: 1.4em auto;
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.45);
+  cursor: zoom-in; /* click to open in the lightbox (components/post/Lightbox.tsx) */
+}
+/* linked images (e.g. post-link-card covers) keep their link behaviour */
+.prose a img {
+  cursor: pointer;
 }
 
 .prose blockquote {
@@ -377,6 +382,68 @@ body {
 }
 .prose tbody tr:hover td {
   color: var(--color-ink);
+}
+/* compact card thumbnails inside data tables (e.g. AR-card lists) */
+.prose td img {
+  display: inline-block;
+  margin: 0;
+  width: auto;
+  max-width: 60px;
+  max-height: 84px;
+  box-shadow: none;
+}
+
+/* ---- image lightbox (components/post/Lightbox.tsx) ----------- */
+.lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4vmin;
+  background: rgba(5, 8, 16, 0.88);
+  backdrop-filter: blur(4px);
+  cursor: zoom-out;
+  animation: lightbox-fade 0.12s ease-out;
+}
+.lightbox-img {
+  max-width: 92vw;
+  max-height: 92vh;
+  width: auto;
+  height: auto;
+  border: 1px solid var(--color-line-bright);
+  border-radius: 6px;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.65);
+}
+.lightbox-close {
+  position: fixed;
+  top: 1.1rem;
+  right: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  font-size: 1.7rem;
+  line-height: 1;
+  color: var(--color-ink);
+  background: rgba(13, 19, 34, 0.85);
+  border: 1px solid var(--color-line-bright);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.lightbox-close:hover {
+  color: var(--color-cyan);
+  border-color: var(--color-cyan);
+}
+@keyframes lightbox-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* ---- Obsidian callouts --------------------------------------- */

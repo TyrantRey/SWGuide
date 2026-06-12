@@ -6,6 +6,7 @@ import { getAdjacentPosts, getAllPosts, getPost } from "@/lib/content";
 import { formatDate } from "@/lib/format";
 import { withBase } from "@/lib/site";
 import { encodePath, urlize } from "@/lib/urlize";
+import Lightbox from "@/components/post/Lightbox";
 import MermaidRenderer from "@/components/post/MermaidRenderer";
 import OutdatedNotice from "@/components/post/OutdatedNotice";
 import PostNav from "@/components/post/PostNav";
@@ -175,6 +176,7 @@ export default async function PostPage({ params }: PostPageProps) {
       </div>
 
       <MermaidRenderer enabled={post.hasMermaid} />
+      <Lightbox />
     </div>
   );
 }
