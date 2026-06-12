@@ -22,3 +22,5 @@ resources/
 
 # Migration scratch
 _migration-baseline-*.txt
+
+**/__pycache__/**
