@@ -61,6 +61,12 @@ interface RawDoc {
   body: string;
 }
 
+// Content is read from disk at runtime (fs), not imported, so Next's Fast Refresh
+// — which only watches the module graph — never reacts to edits under content/post/.
+// Worse, these process-lived caches would serve stale Markdown until the dev server
+// is restarted. So cache only in the production build; in dev re-read every request
+// and a browser refresh shows the latest content.
+const CONTENT_CACHE = process.env.NODE_ENV === "production";
 let docsCache: RawDoc[] | null = null;
 const renderCache = new Map<string, Post>();
 
@@ -126,7 +132,7 @@ function pickCover(slug: string): string {
 }
 
 function loadDocs(): RawDoc[] {
-  if (docsCache) return docsCache;
+  if (docsCache && CONTENT_CACHE) return docsCache;
   const docs: RawDoc[] = [];
 
   for (const file of walkMarkdownFiles(POST_ROOT)) {
@@ -182,7 +188,7 @@ function loadDocs(): RawDoc[] {
     return a.meta.title.localeCompare(b.meta.title, "zh-TW");
   });
 
-  docsCache = docs;
+  if (CONTENT_CACHE) docsCache = docs;
   return docs;
 }
 
@@ -248,8 +254,10 @@ export function resolveCardTarget(cardPath: string): PostMeta | undefined {
 export async function getPost(segments: string[]): Promise<Post | null> {
   const meta = getPostBySegments(segments);
   if (!meta) return null;
-  const cached = renderCache.get(meta.slug);
-  if (cached) return cached;
+  if (CONTENT_CACHE) {
+    const cached = renderCache.get(meta.slug);
+    if (cached) return cached;
+  }
 
   const doc = loadDocs().find((d) => d.meta.slug === meta.slug)!;
   const rendered = await renderMarkdown(doc.body, {
@@ -264,7 +272,7 @@ export async function getPost(segments: string[]): Promise<Post | null> {
     },
   });
   const post: Post = { ...meta, ...rendered };
-  renderCache.set(meta.slug, post);
+  if (CONTENT_CACHE) renderCache.set(meta.slug, post);
   return post;
 }
 
