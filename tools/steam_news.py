@@ -1,10 +1,3 @@
-# /// script
-# requires-python = ">=3.9"
-# dependencies = [
-#     "requests>=2.31",
-#     "pyyaml>=6.0",
-# ]
-# ///
 """Fetch Steam news/announcements for an app and write one Markdown file per item.
 
 Pipeline:  Steam ISteamNews API  ->  detect language (title script)  ->  YAML

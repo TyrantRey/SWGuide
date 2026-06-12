@@ -1,11 +1,3 @@
-# /// script
-# requires-python = ">=3.9"
-# dependencies = [
-#     "openai>=1.40",
-#     "python-dotenv>=1.0",
-#     "pillow>=10.0",
-# ]
-# ///
 """OCR SoulWorker AR cards through an OpenAI-compatible vision endpoint.
 
 Sends each card image to a vision model and returns the structured fields
@@ -34,10 +26,14 @@ import os
 import re
 import sys
 from pathlib import Path
+from typing import TYPE_CHECKING
 
 from dotenv import find_dotenv, load_dotenv
 from openai import OpenAI
 from PIL import Image
+
+if TYPE_CHECKING:
+    from openai.types.chat import ChatCompletionMessageParam
 
 # Load .env (searched from the cwd upward) before reading any config, so the key
 # and optional overrides can live in the repo-root .env.
@@ -166,7 +162,7 @@ def normalize(data: dict) -> dict:
 # OCR
 # --------------------------------------------------------------------------- #
 def ocr_card(client: OpenAI, model: str, path: Path, max_px: int = DEFAULT_MAX_PX) -> dict:
-    messages = [
+    messages: list[ChatCompletionMessageParam] = [
         {"role": "system", "content": SYSTEM_PROMPT},
         {
             "role": "user",
@@ -207,10 +203,11 @@ def main(argv: list[str] | None = None) -> int:
     # Force UTF-8 stdout/stderr so printing CJK JSON never dies on a legacy
     # console codepage (Windows cp950 crashed the detached batch run otherwise).
     for stream in (sys.stdout, sys.stderr):
-        try:
-            stream.reconfigure(encoding="utf-8")
-        except (AttributeError, ValueError):
-            pass
+        if isinstance(stream, io.TextIOWrapper):
+            try:
+                stream.reconfigure(encoding="utf-8")
+            except ValueError:
+                pass
     args = parse_args(argv)
 
     if args.list_models:

@@ -1,7 +1,3 @@
-# /// script
-# requires-python = ">=3.9"
-# dependencies = []
-# ///
 """Aggregate OCR'd AR-card JSONs (written by `ar_ocr.py --save-dir`) into a
 Markdown card section, grouped by 類型 (主動 / 被動 / 核心).
 
@@ -15,6 +11,7 @@ curated by hand afterwards.
 from __future__ import annotations
 
 import argparse
+import io
 import json
 import re
 import sys
@@ -57,10 +54,12 @@ def _resolve_img(stem: str, img_dir: Path | None) -> str | None:
 
 
 def _level(v: object) -> str:
-    try:
-        return f"+{int(v)}"
-    except (TypeError, ValueError):
-        return "+0"
+    if isinstance(v, (int, float, str)):
+        try:
+            return f"+{int(v)}"
+        except (TypeError, ValueError):
+            return "+0"
+    return "+0"
 
 
 def _cell(s: object) -> str:
@@ -117,10 +116,11 @@ def main() -> None:
     ap.add_argument("cache", help="Directory of <stem>.json card files (ar_ocr.py --save-dir).")
     ap.add_argument("--img-dir", default=None, help="Folder with the card images; adds an image (圖) column.")
     args = ap.parse_args()
-    try:
-        sys.stdout.reconfigure(encoding="utf-8")
-    except (AttributeError, ValueError):
-        pass
+    if isinstance(sys.stdout, io.TextIOWrapper):
+        try:
+            sys.stdout.reconfigure(encoding="utf-8")
+        except ValueError:
+            pass
     img_dir = Path(args.img_dir) if args.img_dir else None
     print(build(load_cards(Path(args.cache)), img_dir))
 
