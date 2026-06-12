@@ -4,64 +4,41 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-A **Hugo** static site — a Traditional Chinese (`zh-TW`) game guide for *SoulWorker* (《靈魂行者退坑指南》). Content is prose/Markdown, not application code. It is authored in **Obsidian** and deployed to GitHub Pages. There is no application to run or test suite; "building" means rendering Markdown to HTML with Hugo.
+A **Next.js 15** static-export site — a Traditional Chinese (`zh-TW`) game guide for *SoulWorker* (《靈魂行者退坑指南》) with a dark anime/HUD design (see `DESIGN.md` for the binding design + implementation contract). Guide content is plain Markdown under `content/post/`, authored in **Obsidian**, and deployed to GitHub Pages. The site was migrated from Hugo; URL compatibility with the old Hugo build is a hard requirement.
 
 ## Commands
 
 ```bash
-# First-time setup — the theme is a git submodule and MUST be fetched before any build
-git submodule update --init --recursive
+pnpm install         # first-time setup (Node 22, pnpm — version pinned in package.json#packageManager)
 
-# Local preview at http://localhost:1313 (-D includes draft posts)
-hugo server -D
+pnpm dev             # sync content images + dev server at http://localhost:3000
+pnpm build           # sync + static export into ./out (what CI deploys)
+pnpm check           # tsc --noEmit
+node scripts/check-output.mjs   # after a build: URL parity + internal link check
 
-# Production build into ./public (matches CI flags)
-hugo --minify
-
-# Create a new post (category is auto-filled from the folder via archetypes/default.md)
-hugo new post/<category>/<name>.md
-
-# Lint / format (Trunk wraps markdownlint, prettier, yamllint, taplo for TOML, etc.)
+# Lint / format (Trunk wraps markdownlint, prettier, yamllint, etc.)
 trunk check
 trunk fmt
 ```
 
-Requires **Hugo extended** (CI pins `0.128.0`) and Dart Sass — the theme compiles SCSS, so the plain (non-extended) Hugo will fail.
+## Architecture
+
+- **`content/post/`** — the source of truth: Markdown posts in category folders (前言, 入坑前, 回鍋入坑, 系統, 角色篇, 副本). Images sit in a sibling folder named after the post (Obsidian attachment style). `.obsidian/`, `.trash/`, `Template/` are excluded everywhere.
+- **`lib/content.ts`** — content indexer: walks `content/post`, parses front matter, builds Hugo-compatible slugs, taxonomies, adjacent-post navigation. **`lib/urlize.ts`** replicates Hugo's URL rules (ASCII lowercased, whitespace→`-`, CJK preserved — `AR卡篇/1星AR卡.md` → `/post/系統/ar卡篇/1星ar卡/`). Do not change slug logic without re-running the parity check.
+- **`lib/markdown.ts`** — unified/remark/rehype pipeline: GFM, Obsidian callouts (`> [!note]` etc. → `.callout` divs), Hugo shortcodes still in the Markdown (`{{< postLinkCard >}}`, `{{< youtube >}}`, `{{< bilibili >}}`), Obsidian-style `.md` link resolution (relative first, then unique-filename lookup), relative image rewriting with width/height, heading anchors + TOC, mermaid fences.
+- **`app/`** — routes: home, `post/[...slug]` (55 posts), archives, categories/tags (+ term pages), about (renders `content/about.md`), `index.xml` RSS, sitemap, 404.
+- **`app/globals.css`** — the entire design system (Tailwind v4 `@theme` tokens + `.prose` article styles + `.callout`/`.post-link-card`/`.video-embed` classes emitted by the markdown pipeline).
+- **`scripts/sync-content-assets.mjs`** — runs before dev/build: copies non-`.md` files from `content/post` into `public/post/<urlized-path>/` so co-located images keep their Hugo-era URLs. `public/post/` is generated — never hand-edit, it is gitignored and wiped on each sync.
+- **`public/`** — committed static assets (`covers/`, `images/`, `avatar/`, `副本/`, `.nojekyll`) plus the generated `public/post/`.
 
 ## Deployment
 
-`.github/workflows/hugo.yml` runs on every push to `main`: checks out submodules recursively, builds with `hugo --minify`, and publishes `./public` to the **`gh-pages`** branch via `peaceiris/actions-gh-pages`. Site is served at `https://tyrantrey.github.io`. Do not commit `public/` (gitignored) — it is generated.
+`.github/workflows/deploy.yml` runs on every push to `main`: `npm ci`, `npm run build` with `NEXT_PUBLIC_BASE_PATH` from `actions/configure-pages` (`/<repo>` for project pages), then publishes `./out` to the **`gh-pages`** branch via `peaceiris/actions-gh-pages`. Never commit `out/` or `.next/`.
 
-## Configuration layout
+## Conventions & gotchas
 
-Config is intentionally split:
-
-- **`hugo.toml`** — site-level Hugo settings: `baseURL`, `title`, `theme`, languages, and `ignoreFiles`.
-- **`config/_default/params.yml`** — all *theme* (reimu) parameters: nav menu, sidebar/widgets, comment systems, fonts, dark mode, KaTeX math, animations, footer. This is where most visual/behavioral tweaks go, not `hugo.toml`.
-- **`data/covers.yml`** — pool of random post-cover images (used when a post has no `cover`).
-- **`data/vendor.yml`** — CDN/vendor asset definitions for the theme.
-
-## Theme & overrides
-
-The theme is **hugo-theme-reimu**, pulled as a git submodule at `themes/reimu/` (`url` in `.gitmodules`). The root-level `layouts/`, `static/`, `assets/`, and `i18n/` directories **mirror and override** the theme's equivalents (Hugo resolves project files before theme files). The root `layouts/` files are currently identical copies of the theme's — edit those copies to customize rendering without touching the submodule.
-
-Custom shortcodes live in `layouts/shortcodes/` — notably `postLinkCard`, `externalLinkCard`, `heatMapCard`, `tagRoulette`, `friendsLink`, `bilibili`, `youtube`. Obsidian-style callouts (`> [!warning]`) are rendered by `layouts/_default/_markup/render-blockquote-alert.html`.
-
-## Content conventions
-
-Posts live under `content/post/`, grouped into category folders: `前言`, `入坑前`, `回鍋入坑`, `系統`, `角色篇`, `資源篇`, `副本`. A post may be either a single `.md` file (e.g. `content/post/前言.md`) or a folder bundle holding the `.md` plus its co-located images.
-
-Front matter (see `archetypes/default.md` for the template and `content/post/前言.md` for a real example):
-
-- `categories` is auto-derived from the containing folder name by the archetype — keep posts in the right folder.
-- `weight` controls ordering within a section (lower = earlier); sort behavior is configured under `sort_order` in `params.yml`.
-- `math` / `mermaid` toggle KaTeX and Mermaid per page (both default off in the archetype).
-- `summary` feeds the post excerpt; `draft: true` hides a post from production builds.
-
-Authoring is done in **Obsidian** (`content/post/.obsidian/` holds the vault config). Images use Obsidian attachment naming (e.g. `file-20250907153633470.png`) and sit next to the post. The `.obsidian/`, `.trash/`, and `Template/` folders are excluded from the build.
-
-## Gotchas
-
-- **`ignoreFiles` in `hugo.toml` uses absolute Windows paths** (`D:/Code/SWGuide/post/Template/...`). These are machine-specific and will not match on another machine or in CI — prefer the repo-relative globs already present (e.g. `content/.obsidian/*`) when adding exclusions.
-- The site **will not build without the submodule** — if `themes/reimu/` is empty, run the submodule init command above.
-- `.gitignore` excludes generated/local dirs: `public/`, `resources/`, `.frontmatter/`, `.obsidian/`, `Template/`.
+- **basePath discipline**: internal navigation uses `<Link>` (basePath applied automatically). Any URL emitted as a raw attribute must go through `withBase(encodePath(...))` (`lib/site.ts` / `lib/urlize.ts`). Inside rendered markdown HTML this is already handled by `lib/markdown.ts`.
+- **Static export rules**: every dynamic route has `generateStaticParams` + `dynamicParams = false`; no `headers()`/`cookies()`; plain `<img>` instead of `next/image`. `next.config.ts` applies `output: "export"` **only in the production build phase** (`PHASE_PRODUCTION_BUILD`) — enabling it for `next dev` makes the dev server reject this site's percent-encoded CJK catch-all URLs with `… is missing param "/post/[...slug]" …` ([next#56477](https://github.com/vercel/next.js/issues/56477)). Don't move `output` back to the top level.
+- Front matter (`title, date, lastmod, summary, description, keywords, weight, categories, tags, cover, draft`): `weight` pins a post to the top of the home order; `draft: true` excludes a post; empty `cover` gets a deterministic pick from the `covers/` pool.
+- New post = drop a `.md` file into the right category folder (the folder name becomes the category path and URL); images go in a sibling folder named after the file (Obsidian default).
+- `_migration-baseline-urls.txt` / `_migration-baseline-files.txt` (gitignored, regenerable from the pre-migration Hugo build) feed `scripts/check-output.mjs`'s parity check. Consciously dropped vs Hugo: deep pagination URLs (`/page/N/`), per-taxonomy RSS feeds, and `.trash`-derived pages.

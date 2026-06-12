@@ -46,25 +46,12 @@
       ]
     }
   ],
-  "frontMatter.framework.id": "hugo",
-  "frontMatter.content.publicFolder": "static",
-  "frontMatter.preview.host": "http://localhost:1313",
+  "frontMatter.framework.id": "next",
+  "frontMatter.content.publicFolder": "public",
+  "frontMatter.preview.host": "http://localhost:3000",
   "frontMatter.content.pageFolders": [
     {
-      "path": "[[workspace]]/archetypes"
-    },
-    {
-      "path": "[[workspace]]/themes/reimu"
-    },
-    {
       "path": "[[workspace]]/content/post"
-    },
-    {
-      "path": "[[workspace]]/content/archives"
-    },
-    {
-      "title": "_example",
-      "path": "[[workspace]]/themes/reimu/_example"
     }
   ],
   "frontMatter.git.enabled": true

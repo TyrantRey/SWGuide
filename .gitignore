@@ -1,18 +1,24 @@
-**/resources/**
+# Node / Next.js
+node_modules/
+.next/
+out/
+next-env.d.ts
+tsconfig.tsbuildinfo
+
+# Generated content assets (synced from content/post by scripts/sync-content-assets.mjs)
+/public/post/
+
+# Hugo leftovers (until fully removed)
+resources/
+
+# Obsidian vault internals
+**/.obsidian/**
+**/.trash/**
+**/Template/**
+**/.DS_Store
+
+# Editor / tooling
 **/.frontmatter/**
-**/.git/**
-**/.git/**
-**/public/**
-**/staitc/**
-**/theme/**
-**/Template/**
 
-**/.obsidian/**
-**/plugins/**
-**/.trash/**
-
-**/.obsidian/**
-**/plugins/**
-**/.trash/**
-**/.DS_Store**
-**/Template/**
+# Migration scratch
+_migration-baseline-*.txt
