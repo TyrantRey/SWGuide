@@ -393,6 +393,60 @@ body {
   box-shadow: none;
 }
 
+/* ---- large-table filter (components/post/TableSearch.tsx) ----- */
+.table-search {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem 0.7rem;
+  margin: 1.2em 0 0.55rem;
+}
+.table-search + .table-wrap {
+  margin-top: 0;
+}
+.table-search input {
+  width: min(100%, 17rem);
+  margin: 0;
+  padding: 0.4em 0.7em 0.4em 1.85rem;
+  font-size: 0.82rem;
+  line-height: 1.45;
+  color: var(--color-ink);
+  background-color: var(--color-surface);
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2024%2024'%20fill='none'%20stroke='%2366718a'%20stroke-width='2'%20stroke-linecap='round'%3E%3Ccircle%20cx='10.5'%20cy='10.5'%20r='6.5'/%3E%3Cpath%20d='M21%2021l-5.3-5.3'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: 0.55rem center;
+  background-size: 0.95rem;
+  border: 1px solid var(--color-line-bright);
+  outline: none;
+  clip-path: polygon(0 0, calc(100% - 7px) 0, 100% 7px, 100% 100%, 0 100%);
+  transition:
+    border-color 0.15s ease,
+    box-shadow 0.15s ease;
+}
+.table-search input::placeholder {
+  color: var(--color-ink-faint);
+}
+.table-search input:focus {
+  border-color: var(--color-cyan);
+  box-shadow:
+    0 0 0 1px rgba(61, 232, 255, 0.3),
+    0 0 14px -5px rgba(61, 232, 255, 0.55);
+}
+.table-search-count {
+  font-family: var(--font-display);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  color: var(--color-ink-faint);
+  white-space: nowrap;
+}
+.table-search.is-empty .table-search-count {
+  color: var(--color-red);
+}
+.prose tbody tr[hidden] {
+  display: none;
+}
+
 /* ---- image lightbox (components/post/Lightbox.tsx) ----------- */
 .lightbox-overlay {
   position: fixed;

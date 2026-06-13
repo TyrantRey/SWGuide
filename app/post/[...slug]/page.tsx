@@ -11,6 +11,7 @@ import MermaidRenderer from "@/components/post/MermaidRenderer";
 import OutdatedNotice from "@/components/post/OutdatedNotice";
 import PostNav from "@/components/post/PostNav";
 import TableOfContents from "@/components/post/TableOfContents";
+import TableSearch from "@/components/post/TableSearch";
 
 export const dynamicParams = false;
 
@@ -176,6 +177,7 @@ export default async function PostPage({ params }: PostPageProps) {
       </div>
 
       <MermaidRenderer enabled={post.hasMermaid} />
+      <TableSearch key={post.url} />
       <Lightbox />
     </div>
   );
