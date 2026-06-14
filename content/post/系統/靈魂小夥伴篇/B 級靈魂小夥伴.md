@@ -9,7 +9,6 @@ math: false
 mermaid: true
 cover:
 categories:
-  - 系統
   - 靈魂小夥伴
 tags:
   - 靈魂小夥伴
