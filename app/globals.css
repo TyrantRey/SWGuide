@@ -38,6 +38,11 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    scrollbar-width: none; /* hide the page scrollbar (Firefox) — page still scrolls */
+  }
+  /* hide the page scrollbar (Chrome/Safari/Edge); in-content panels keep theirs */
+  html::-webkit-scrollbar {
+    display: none;
   }
 
   body {
