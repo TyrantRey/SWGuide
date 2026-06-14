@@ -1,6 +1,6 @@
 ---
 title: FOT 勳章
-summary: FOT（要塞型）勳章：攻擊與爆擊取向，常配在頭、胸，選項與選擇建議。
+summary: FOT 勳章
 description: FOT 勳章
 keywords: FOT 勳章
 date: 2025-10-10
@@ -24,6 +24,8 @@ tags:
 
 
 ### 防禦型
+
+### 功能型
 
 ## 選擇建議
 

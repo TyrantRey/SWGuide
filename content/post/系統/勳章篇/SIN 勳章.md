@@ -1,6 +1,6 @@
 ---
 title: SIN 勳章
-summary: SIN（刺客型）勳章：攻擊、攻速與爆擊取向，常配在褲，選項與選擇建議。
+summary: SIN 勳章
 description: SIN 勳章
 keywords: SIN 勳章
 date: 2025-10-10
@@ -22,8 +22,9 @@ tags:
 
 ### 攻擊型
 
-
 ### 防禦型
+
+### 功能型
 
 ## 選擇建議
 

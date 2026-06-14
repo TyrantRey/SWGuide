@@ -1,6 +1,6 @@
 ---
 title: BSK 勳章
-summary: BSK（狂戰型）勳章：攻擊與防禦（受擊、迴避）選項齊全，配置與選擇建議。
+summary: BSK 勳章
 description: BSK 勳章
 keywords: BSK 勳章
 date: 2025-10-10
@@ -22,8 +22,9 @@ tags:
 
 ### 攻擊型
 
-
 ### 防禦型
+
+### 功能型
 
 ## 選擇建議
 

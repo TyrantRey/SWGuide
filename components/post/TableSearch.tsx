@@ -34,12 +34,12 @@ export default function TableSearch() {
       const input = document.createElement("input");
       input.type = "search";
       input.autocomplete = "off";
-      input.placeholder = "搜尋卡片…";
+      input.placeholder = "搜尋…";
       input.setAttribute("aria-label", "搜尋表格");
 
       const count = document.createElement("span");
       count.className = "table-search-count";
-      count.textContent = `${total} 張`;
+      count.textContent = `${total} 條項目`;
 
       box.append(input, count);
       wrap.parentNode?.insertBefore(box, wrap);
@@ -52,7 +52,7 @@ export default function TableSearch() {
           rows[i].hidden = !hit;
           if (hit) shown += 1;
         }
-        count.textContent = q ? `${shown} / ${total}` : `${total} 張`;
+        count.textContent = q ? `${shown} / ${total}` : `${total} 條項目`;
         box.classList.toggle("is-empty", q !== "" && shown === 0);
       };
 
