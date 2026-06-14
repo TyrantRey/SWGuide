@@ -24,8 +24,6 @@ tags:
 
 ### 功能型
 
-## 選擇建議
-
 ## 相關資料
 
 - 【攻略】勳章的使用說明與能力介紹 <https://forum.gamer.com.tw/C.php?bsn=21911&snA=1555>
