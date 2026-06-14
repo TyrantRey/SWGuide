@@ -37,7 +37,7 @@ export default function SiteHeader() {
           </span>
         </Link>
 
-        <nav className="ml-auto flex items-center gap-1 overflow-x-auto">
+        <nav className="ml-auto flex items-center gap-1">
           {NAV.map((item) => {
             const active =
               item.href === "/"

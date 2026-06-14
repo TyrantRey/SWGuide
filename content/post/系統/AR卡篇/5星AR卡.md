@@ -1,6 +1,6 @@
 ---
 title: 5星AR卡
-summary: 5 星「神卡」一覽，畢業卡組核心（女王、泰弗裡斯、洛斯卡、天啟等）。
+summary: 5 星一覽
 description: 5星AR卡
 keywords: 5星AR卡
 date: 2025-10-10

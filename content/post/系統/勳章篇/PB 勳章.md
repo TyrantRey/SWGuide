@@ -9,7 +9,6 @@ math: false
 mermaid: true
 cover:
 categories:
-  - 系統
   - 勳章
 tags:
   - 勳章
