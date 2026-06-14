@@ -27,5 +27,6 @@ _migration-baseline-*.txt
 
 # OCR agent per-image result cache (regenerable from the card images)
 tools/.ocr-cache/
+tools/captures/
 
 .env

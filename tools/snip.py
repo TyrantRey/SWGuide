@@ -162,7 +162,7 @@ def capture_loop(region: tuple[int, int, int, int], outdir: Path, do_beep: bool)
 
     def on_press(key) -> bool | None:
         nonlocal action, n
-        if key == keyboard.Key.alt_l:
+        if key == keyboard.Key.ctrl_r:
             path = save_region(region, outdir)
             n += 1
             print(f"  [{n}] saved {path.name}")
@@ -181,7 +181,7 @@ def capture_loop(region: tuple[int, int, int, int], outdir: Path, do_beep: bool)
             return False
         return None
 
-    print(f"範圍已設定 {region}.  ALT=截圖 · R=重選 · ESC/Q=結束")
+    print(f"範圍已設定 {region}.  CTRL_R=截圖 · R=重選 · ESC/Q=結束")
     with keyboard.Listener(on_press=on_press) as listener:
         listener.join()
     return action
@@ -217,11 +217,11 @@ def main(argv: list[str] | None = None) -> int:
         print("請拖曳選取截圖範圍…")
         region = select_region()
         if region is None:
-            print("已取消，結束。")
+            print("已取消，結束")
             return 0
         action = capture_loop(region, outdir, do_beep=not args.no_beep)
         if action == "quit":
-            print("結束。")
+            print("結束")
             return 0
         # action == "reselect" -> loop back to select a new region
 
