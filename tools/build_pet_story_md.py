@@ -140,12 +140,15 @@ def main() -> None:
     ap.add_argument("cache", help="Directory of <stem>.json story files (pet_story_ocr.py --save-dir).")
     ap.add_argument("--names", default=None, help="Comma-separated pet names to label the groups in capture order (the story-screen name OCR is unreliable; this overrides it).")
     ap.add_argument("--roster", default=None, help="Comma-separated full pet roster; output one row per roster pet in this order, N/A for pets with no captured story.")
+    ap.add_argument("--levels", default=None, help="Comma-separated tier columns (default: S,SS,SSS). Use 'S,SS' for ranks that only have two story tiers; a tier the OCR over-reads (e.g. SS misread as SSS) folds into the next open column.")
     args = ap.parse_args()
     if isinstance(sys.stdout, io.TextIOWrapper):
         try:
             sys.stdout.reconfigure(encoding="utf-8")
         except ValueError:
             pass
+    if args.levels:
+        globals()["LEVELS"] = [s.strip() for s in args.levels.split(",") if s.strip()]
     names = [s for s in args.names.split(",")] if args.names else None
     roster = [s.strip() for s in args.roster.split(",") if s.strip()] if args.roster else None
     print(build(load_stories(Path(args.cache)), names, roster))
