@@ -5,7 +5,7 @@
 5:I[8898,["898","static/chunks/898-dd3a73578fffcbfe.js","575","static/chunks/app/post/%5B...slug%5D/page-2db71988ea81d1dd.js"],""]
 d:I[6177,[],""]
 :HL["/SWGuide/_next/static/css/94097a2d34ac2726.css","style"]
-0:{"P":null,"b":"IWQNErVMmf-KlapDVzrV3","p":"/SWGuide","c":["","post","%E7%B3%BB%E7%B5%B1","%E5%8B%B3%E7%AB%A0%E7%AF%87","%E5%8B%B3%E7%AB%A0%E7%9B%AE%E9%8C%84",""],"i":false,"f":[[["",{"children":["post",{"children":[["slug","%E7%B3%BB%E7%B5%B1/%E5%8B%B3%E7%AB%A0%E7%AF%87/%E5%8B%B3%E7%AB%A0%E7%9B%AE%E9%8C%84","c"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/SWGuide/_next/static/css/94097a2d34ac2726.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh-TW","children":["$","body",null,{"className":"min-h-screen flex flex-col antialiased","children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Rajdhani:wght@500;600;700&display=swap"}],["$","$L2",null,{}],["$","main",null,{"className":"flex-1 w-full","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"flex min-h-[72vh] flex-col items-center justify-center px-4 py-16 text-center","children":[["$","div",null,{"className":"hud-chip","children":"Connection Lost"}],["$","div",null,{"className":"text-gradient mt-4 font-display text-[clamp(5.5rem,18vw,10rem)] font-bold leading-none tracking-[0.08em] drop-shadow-[0_0_28px_rgba(61,232,255,0.35)]","aria-hidden":"true","children":"404"}],["$","p",null,{"className":"mt-6 text-xl font-bold text-ink","children":"満身創痍 (ﾟ⊿ﾟ)ﾂ — 這個頁面已經退坑了"}],["$","p",null,{"className":"mt-3 max-w-md text-sm leading-relaxed text-ink-dim","children":"訊號中斷：你要找的攻略可能已改名、搬家，或從未存在。 到彙整頁看看吧，所有文章都在那裡待命。"}],["$","div",null,{"className":"mt-10 flex flex-wrap items-center justify-center gap-4","children":[["$","$L5",null,{"href":"/","className":"inline-flex items-baseline gap-2 border border-cyan/60 bg-cyan/10 px-7 py-3 font-bold text-cyan transition-all duration-200 [clip-path:polygon(12px_0,100%_0,calc(100%_-_12px)_100%,0_100%)] hover:bg-cyan/20 hover:shadow-[0_0_28px_rgba(61,232,255,0.3)]","children":["返回首頁",["$","span",null,{"className":"font-display text-xs font-semibold tracking-[0.3em]","children":"/ HOME"}]]}],["$","$L5",null,{"href":"/archives/","className":"inline-flex items-baseline gap-2 border border-magenta/50 bg-magenta/10 px-7 py-3 font-bold text-magenta transition-all duration-200 [clip-path:polygon(12px_0,100%_0,calc(100%_-_12px)_100%,0_100%)] hover:bg-magenta/20 hover:shadow-[0_0_28px_rgba(255,61,138,0.3)]","children":["瀏覽彙整",["$","span",null,{"className":"font-display text-xs font-semibold tracking-[0.3em]","children":"/ ARCHIVES"}]]}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"mt-20 border-t border-line bg-[rgba(12,17,32,0.6)]","children":["$","div",null,{"className":"mx-auto flex max-w-6xl flex-col items-center gap-4 px-4 py-10 text-center","children":[["$","div",null,{"className":"hud-chip","children":"SOULWORKER GUIDE"}],["$","p",null,{"className":"text-sm text-ink-dim","children":["© ","2025–2026"," ","TyrantRey"," · ","Soulworker 靈魂行者退坑指南"]}],["$","nav",null,{"className":"flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-sm","children":[["$","a","GitHub",{"href":"https://github.com/TyrantRey","target":"_blank","rel":"noopener noreferrer","className":"font-display font-semibold tracking-[0.18em] text-ink-faint transition-colors hover:text-cyan","children":"GITHUB"}],["$","a","YouTube",{"href":"https://www.youtube.com/@tyrantrey","target":"_blank","rel":"noopener noreferrer","className":"font-display font-semibold tracking-[0.18em] text-ink-faint transition-colors hover:text-cyan","children":"YOUTUBE"}],["$","a","Discord",{"href":"https://discordapp.com/users/496941805196017673","target":"_blank","rel":"noopener noreferrer","className":"font-display font-semibold tracking-[0.18em] text-ink-faint transition-colors hover:text-cyan","children":"DISCORD"}],"$L6","$L7"]}],"$L8"]}]}]]}]}]]}],{"children":["post","$L9",{"children":[["slug","%E7%B3%BB%E7%B5%B1/%E5%8B%B3%E7%AB%A0%E7%AF%87/%E5%8B%B3%E7%AB%A0%E7%9B%AE%E9%8C%84","c"],"$La",{"children":["__PAGE__","$Lb",{},null,false]},null,false]},null,false]},null,false],"$Lc",false]],"m":"$undefined","G":["$d",[]],"s":false,"S":true}
+0:{"P":null,"b":"QrSuLj7ukr_XKdz6i4IKM","p":"/SWGuide","c":["","post","%E7%B3%BB%E7%B5%B1","%E5%8B%B3%E7%AB%A0%E7%AF%87","%E5%8B%B3%E7%AB%A0%E7%9B%AE%E9%8C%84",""],"i":false,"f":[[["",{"children":["post",{"children":[["slug","%E7%B3%BB%E7%B5%B1/%E5%8B%B3%E7%AB%A0%E7%AF%87/%E5%8B%B3%E7%AB%A0%E7%9B%AE%E9%8C%84","c"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/SWGuide/_next/static/css/94097a2d34ac2726.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh-TW","children":["$","body",null,{"className":"min-h-screen flex flex-col antialiased","children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Rajdhani:wght@500;600;700&display=swap"}],["$","$L2",null,{}],["$","main",null,{"className":"flex-1 w-full","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"flex min-h-[72vh] flex-col items-center justify-center px-4 py-16 text-center","children":[["$","div",null,{"className":"hud-chip","children":"Connection Lost"}],["$","div",null,{"className":"text-gradient mt-4 font-display text-[clamp(5.5rem,18vw,10rem)] font-bold leading-none tracking-[0.08em] drop-shadow-[0_0_28px_rgba(61,232,255,0.35)]","aria-hidden":"true","children":"404"}],["$","p",null,{"className":"mt-6 text-xl font-bold text-ink","children":"満身創痍 (ﾟ⊿ﾟ)ﾂ — 這個頁面已經退坑了"}],["$","p",null,{"className":"mt-3 max-w-md text-sm leading-relaxed text-ink-dim","children":"訊號中斷：你要找的攻略可能已改名、搬家，或從未存在。 到彙整頁看看吧，所有文章都在那裡待命。"}],["$","div",null,{"className":"mt-10 flex flex-wrap items-center justify-center gap-4","children":[["$","$L5",null,{"href":"/","className":"inline-flex items-baseline gap-2 border border-cyan/60 bg-cyan/10 px-7 py-3 font-bold text-cyan transition-all duration-200 [clip-path:polygon(12px_0,100%_0,calc(100%_-_12px)_100%,0_100%)] hover:bg-cyan/20 hover:shadow-[0_0_28px_rgba(61,232,255,0.3)]","children":["返回首頁",["$","span",null,{"className":"font-display text-xs font-semibold tracking-[0.3em]","children":"/ HOME"}]]}],["$","$L5",null,{"href":"/archives/","className":"inline-flex items-baseline gap-2 border border-magenta/50 bg-magenta/10 px-7 py-3 font-bold text-magenta transition-all duration-200 [clip-path:polygon(12px_0,100%_0,calc(100%_-_12px)_100%,0_100%)] hover:bg-magenta/20 hover:shadow-[0_0_28px_rgba(255,61,138,0.3)]","children":["瀏覽彙整",["$","span",null,{"className":"font-display text-xs font-semibold tracking-[0.3em]","children":"/ ARCHIVES"}]]}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"mt-20 border-t border-line bg-[rgba(12,17,32,0.6)]","children":["$","div",null,{"className":"mx-auto flex max-w-6xl flex-col items-center gap-4 px-4 py-10 text-center","children":[["$","div",null,{"className":"hud-chip","children":"SOULWORKER GUIDE"}],["$","p",null,{"className":"text-sm text-ink-dim","children":["© ","2025–2026"," ","TyrantRey"," · ","Soulworker 靈魂行者退坑指南"]}],["$","nav",null,{"className":"flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-sm","children":[["$","a","GitHub",{"href":"https://github.com/TyrantRey","target":"_blank","rel":"noopener noreferrer","className":"font-display font-semibold tracking-[0.18em] text-ink-faint transition-colors hover:text-cyan","children":"GITHUB"}],["$","a","YouTube",{"href":"https://www.youtube.com/@tyrantrey","target":"_blank","rel":"noopener noreferrer","className":"font-display font-semibold tracking-[0.18em] text-ink-faint transition-colors hover:text-cyan","children":"YOUTUBE"}],["$","a","Discord",{"href":"https://discordapp.com/users/496941805196017673","target":"_blank","rel":"noopener noreferrer","className":"font-display font-semibold tracking-[0.18em] text-ink-faint transition-colors hover:text-cyan","children":"DISCORD"}],"$L6","$L7"]}],"$L8"]}]}]]}]}]]}],{"children":["post","$L9",{"children":[["slug","%E7%B3%BB%E7%B5%B1/%E5%8B%B3%E7%AB%A0%E7%AF%87/%E5%8B%B3%E7%AB%A0%E7%9B%AE%E9%8C%84","c"],"$La",{"children":["__PAGE__","$Lb",{},null,false]},null,false]},null,false]},null,false],"$Lc",false]],"m":"$undefined","G":["$d",[]],"s":false,"S":true}
 f:I[6050,[],"OutletBoundary"]
 11:I[9479,[],"AsyncMetadataOutlet"]
 13:I[6050,[],"ViewportBoundary"]
@@ -20,36 +20,13 @@ b:["$","$1","c",{"children":["$Le",null,["$","$Lf",null,{"children":["$L10",["$"
 c:["$","$1","h",{"children":[null,[["$","$L13",null,{"children":"$L14"}],null],["$","$L15",null,{"children":["$","div",null,{"hidden":true,"children":["$","$16",null,{"fallback":null,"children":"$L17"}]}]}]]}]
 18:I[7066,["898","static/chunks/898-dd3a73578fffcbfe.js","575","static/chunks/app/post/%5B...slug%5D/page-2db71988ea81d1dd.js"],"default"]
 19:I[2692,["898","static/chunks/898-dd3a73578fffcbfe.js","575","static/chunks/app/post/%5B...slug%5D/page-2db71988ea81d1dd.js"],"default"]
-1a:T3469,<h2 id="勳章是什麼">勳章是什麼<a class="heading-anchor" href="#勳章是什麼" aria-label="勳章是什麼">#</a></h2>
-<p>勳章是鑲嵌在<strong>防具</strong>上的小元件，提供攻擊、防禦或功能性的數值加成。每件防具有 3 個勳章孔，全身湊起來就是一筆可觀的屬性，是角色最主要的加點來源之一。分為可交易及不可交易。一般勳章分為<del>BIT,KB,MB</del>,GB,TB 及角色技能勳章PB</p>
+1a:T5d96,<h2 id="勳章是什麼">勳章是什麼<a class="heading-anchor" href="#勳章是什麼" aria-label="勳章是什麼">#</a></h2>
+<p>勳章是鑲嵌在<strong>防具</strong>上的小元件，提供攻擊、防禦或功能性的數值加成。每件防具有 3 個勳章孔，全身湊起來就是一筆可觀的屬性，是角色最主要的加點來源之一。分為可交易及不可交易。一般勳章分為<del>BIT,KB</del>,MB,GB,TB 及角色技能勳章PB。</p>
 <div class="callout callout--important"><div class="callout-title"><span class="callout-icon" aria-hidden="true"></span>重要</div><div class="callout-body"><ul>
 <li>勳章的精髓在「<strong>套裝效果</strong>」：同一件防具上的 3 個勳章孔，若鑲嵌<strong>相同型號且相同稀有度</strong>的勳章，就會額外觸發套裝加成。所以配勳章不是看單張數值最高，而是看整套湊不湊得齊。</li>
 </ul></div></div>
-<h2 id="四種型號">四種型號<a class="heading-anchor" href="#四種型號" aria-label="四種型號">#</a></h2>
-<p>勳章依外型分成四種型號，彼此的套裝效果不同，<strong>只能同型號互相比較</strong>，不能跨型號混搭觸發套裝：</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="table-wrap"><table><thead><tr><th>型號</th></tr></thead><tbody><tr><td>SD</td></tr><tr><td>BSK</td></tr><tr><td>FOT</td></tr><tr><td>SIN</td></tr></tbody></table></div>
-<h2 id="稀有度由弱到強">稀有度（由弱到強）<a class="heading-anchor" href="#稀有度由弱到強" aria-label="稀有度（由弱到強）">#</a></h2>
-<p>勳章稀有度借用了資料量單位來命名，顏色由弱到強為：</p>
+<h2 id="時裝孔洞">時裝孔洞<a class="heading-anchor" href="#時裝孔洞" aria-label="時裝孔洞">#</a></h2>
+<p>勳章實際鑲嵌在<strong>時裝</strong>上，可用孔洞數依時裝部位而定：</p>
 
 
 
@@ -83,20 +60,308 @@ c:["$","$1","h",{"children":[null,[["$","$L13",null,{"children":"$L14"}],null],[
 
 
 
-<div class="table-wrap"><table><thead><tr><th>稀有度</th><th>顏色</th></tr></thead><tbody><tr><td>BIT</td><td>綠</td></tr><tr><td>KIRO</td><td>藍</td></tr><tr><td>MEGA</td><td>黃</td></tr><tr><td>GIGA</td><td>紅</td></tr><tr><td>TERA</td><td>紫</td></tr><tr><td>Peta</td><td>角色限制</td></tr></tbody></table></div>
+
+
+<div class="table-wrap"><table><thead><tr><th>時裝部位</th><th>M、G、TB孔洞數</th><th>PB 孔洞數</th></tr></thead><tbody><tr><td>單部位</td><td>3</td><td>1</td></tr><tr><td>上衣 ＋ 下衣（套裝）</td><td>6</td><td>2</td></tr><tr><td>部分時裝（如背包類）</td><td>無孔洞</td><td>無孔洞</td></tr><tr><td><img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E5%8B%B3%E7%AB%A0%E7%AF%87/%E5%8B%B3%E7%AB%A0%E7%9B%AE%E9%8C%84/file-20260615220034982.png" alt="" loading="lazy" decoding="async" width="267" height="303"></td><td></td><td></td></tr><tr><td><img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E5%8B%B3%E7%AB%A0%E7%AF%87/%E5%8B%B3%E7%AB%A0%E7%9B%AE%E9%8C%84/file-20260615220044948.png" alt="" loading="lazy" decoding="async" width="293" height="113"></td><td></td><td></td></tr></tbody></table></div>
+<h2 id="勳章類型">勳章類型<a class="heading-anchor" href="#勳章類型" aria-label="勳章類型">#</a></h2>
+<h3 id="屬性種類">屬性種類<a class="heading-anchor" href="#屬性種類" aria-label="屬性種類">#</a></h3>
+<p>勳章依外型分成四種型號，彼此的套裝效果不同，<strong>只能同型號互相比較</strong>，不能跨型號混搭觸發套裝。(圖片由左至右為<strong>功能型</strong>、<strong>防禦型</strong>、<strong>攻擊型</strong>)</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-wrap"><table><thead><tr><th>種類</th><th>圖片</th></tr></thead><tbody><tr><td>SD</td><td><img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E5%8B%B3%E7%AB%A0%E7%AF%87/%E5%8B%B3%E7%AB%A0%E7%9B%AE%E9%8C%84/file-20260615221039699.png" alt="" loading="lazy" decoding="async" width="165" height="164"></td></tr><tr><td>BSK</td><td><img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E5%8B%B3%E7%AB%A0%E7%AF%87/%E5%8B%B3%E7%AB%A0%E7%9B%AE%E9%8C%84/file-20260615221147183.png" alt="" loading="lazy" decoding="async" width="165" height="160"></td></tr><tr><td>FOT</td><td><img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E5%8B%B3%E7%AB%A0%E7%AF%87/%E5%8B%B3%E7%AB%A0%E7%9B%AE%E9%8C%84/file-20260615221154177.png" alt="" loading="lazy" decoding="async" width="167" height="164"></td></tr><tr><td>SIN</td><td><img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E5%8B%B3%E7%AB%A0%E7%AF%87/%E5%8B%B3%E7%AB%A0%E7%9B%AE%E9%8C%84/file-20260615221204405.png" alt="" loading="lazy" decoding="async" width="164" height="162"></td></tr></tbody></table></div>
+<h3 id="等級">等級<a class="heading-anchor" href="#等級" aria-label="等級">#</a></h3>
+<p>勳章依等級分成六種。BIT 及KB 傳送器已被廢除，</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-wrap"><table><thead><tr><th>等級</th><th>圖片</th><th>備註</th></tr></thead><tbody><tr><td>BIT</td><td><img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E5%8B%B3%E7%AB%A0%E7%AF%87/%E5%8B%B3%E7%AB%A0%E7%9B%AE%E9%8C%84/file-20260615220524466.png" alt="" loading="lazy" decoding="async" width="59" height="66"></td><td>已棄用</td></tr><tr><td>KB</td><td><img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E5%8B%B3%E7%AB%A0%E7%AF%87/%E5%8B%B3%E7%AB%A0%E7%9B%AE%E9%8C%84/file-20260615220600627.png" alt="" loading="lazy" decoding="async" width="54" height="52"></td><td>已棄用</td></tr><tr><td>MB</td><td><img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E5%8B%B3%E7%AB%A0%E7%AF%87/%E5%8B%B3%E7%AB%A0%E7%9B%AE%E9%8C%84/file-20260615220636327.png" alt="" loading="lazy" decoding="async" width="55" height="55"></td><td></td></tr><tr><td>GB</td><td><img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E5%8B%B3%E7%AB%A0%E7%AF%87/%E5%8B%B3%E7%AB%A0%E7%9B%AE%E9%8C%84/file-20260615220645600.png" alt="" loading="lazy" decoding="async" width="51" height="51"></td><td></td></tr><tr><td><strong>TB</strong></td><td><img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E5%8B%B3%E7%AB%A0%E7%AF%87/%E5%8B%B3%E7%AB%A0%E7%9B%AE%E9%8C%84/file-20260615220657053.png" alt="" loading="lazy" decoding="async" width="51" height="53"></td><td></td></tr><tr><td>PB</td><td><img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E5%8B%B3%E7%AB%A0%E7%AF%87/%E5%8B%B3%E7%AB%A0%E7%9B%AE%E9%8C%84/file-20260615220706380.png" alt="" loading="lazy" decoding="async" width="52" height="54"></td><td>技能勳章</td></tr></tbody></table></div>
+<h3 id="可交易勳章">可交易勳章<a class="heading-anchor" href="#可交易勳章" aria-label="可交易勳章">#</a></h3>
+<p><del>經過一堆有的沒的神級營運</del>，勳章可以大約分為<strong>綁定型勳章(黑底色)</strong>、<strong>綁定型勳章(沒底色|沒箭頭)</strong>、<strong>可交易型勳章(沒底色|沒箭頭)</strong>、<strong>可交易型勳章(有箭頭)</strong>。而<strong>綁定型勳章(黑底色)</strong> 及<strong>舊的勳章(沒底色|沒箭頭)</strong> 為不可交易。 <strong>舊的勳章(沒底色|沒箭頭)</strong> 需要先在安裝時裝上後解除改變為<strong>可交易的勳章(沒底色|沒箭頭)</strong> 而且要注意背包沒有同名同級及不可交易的勳章，否則解除後的勳章會堆疊在一起，白忙一場。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-wrap"><table><thead><tr><th>等級</th><th>圖片</th><th>可交易</th></tr></thead><tbody><tr><td>綁定型勳章(黑底色)</td><td><img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E5%8B%B3%E7%AB%A0%E7%AF%87/%E5%8B%B3%E7%AB%A0%E7%9B%AE%E9%8C%84/file-20260615223626763.png" alt="" loading="lazy" decoding="async" width="363" height="424"></td><td>No</td></tr><tr><td>綁定型勳章(沒底色|沒箭頭)</td><td><img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E5%8B%B3%E7%AB%A0%E7%AF%87/%E5%8B%B3%E7%AB%A0%E7%9B%AE%E9%8C%84/file-20260615223851986.png" alt="" loading="lazy" decoding="async" width="366" height="399"></td><td>No</td></tr><tr><td>可交易勳章(沒底色|沒箭頭)</td><td><img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E5%8B%B3%E7%AB%A0%E7%AF%87/%E5%8B%B3%E7%AB%A0%E7%9B%AE%E9%8C%84/file-20260615223935369.png" alt="" loading="lazy" decoding="async" width="366" height="341"><br><img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E5%8B%B3%E7%AB%A0%E7%AF%87/%E5%8B%B3%E7%AB%A0%E7%9B%AE%E9%8C%84/file-20260615224008863.png" alt="" loading="lazy" decoding="async" width="180" height="162"></td><td>Yes</td></tr><tr><td>可交易型勳章(有箭頭)</td><td><img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E5%8B%B3%E7%AB%A0%E7%AF%87/%E5%8B%B3%E7%AB%A0%E7%9B%AE%E9%8C%84/file-20260615223651540.png" alt="" loading="lazy" decoding="async" width="361" height="342"></td><td>Yes</td></tr></tbody></table></div>
+<h2 id="勳章套裝組合效果">勳章套裝組合效果<a class="heading-anchor" href="#勳章套裝組合效果" aria-label="勳章套裝組合效果">#</a></h2>
+<div class="callout callout--note"><div class="callout-title"><span class="callout-icon" aria-hidden="true"></span>筆記</div><div class="callout-body"><p>數值依序為 <strong>MB ／ GB ／ TB</strong>（MEGA／GIGA／TERA）稀有度，需同型號同稀有度湊滿該部位 3 孔才觸發。部分效果僅在 GB／TB 才有數值（MB 欄留空者表示該稀有度不觸發該效果）。</p></div></div>
+<h3 id="頭">頭<a class="heading-anchor" href="#頭" aria-label="頭">#</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-wrap"><table><thead><tr><th>類型</th><th>MB</th><th>GB</th><th>TB</th></tr></thead><tbody><tr><td>SD</td><td>攻擊力 +7%；未命中時傷害 +10%</td><td>攻擊力 +10%；未命中時傷害 +14%；對敵方穿甲 +3%</td><td>攻擊力 +15%；未命中時傷害 +20%；對敵方穿甲 +5%</td></tr><tr><td>BSK</td><td>攻擊力 +10%</td><td>攻擊力 +20%</td><td>攻擊力 +25%</td></tr><tr><td>FOT</td><td>暴擊傷害 +490；攻擊力 +390</td><td>暴擊傷害 +700；攻擊力 +560；暴擊率 +3%</td><td>暴擊傷害 +1000；攻擊力 +800；暴擊率 +3%</td></tr><tr><td>SIN</td><td>暴擊率 +3%</td><td>暴擊率 +4%</td><td>暴擊率 +5%</td></tr></tbody></table></div>
+<h3 id="上衣">上衣<a class="heading-anchor" href="#上衣" aria-label="上衣">#</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-wrap"><table><thead><tr><th>類型</th><th>MB</th><th>GB</th><th>TB</th></tr></thead><tbody><tr><td>SD</td><td>攻擊力 +490；防禦力 +25%；HP +25%</td><td>攻擊力 +700；防禦力 +35%；HP +35%</td><td>攻擊力 +1000；防禦力 +50%；HP +50%</td></tr><tr><td>BSK</td><td>暴擊率 +3%</td><td>暴擊率 +4%</td><td>暴擊率 +5%</td></tr><tr><td>FOT</td><td>體力 +49%；攻擊力 +1225；傷害減少值 +5%</td><td>體力 +70%；攻擊力 +1750；傷害減少值 +7%</td><td>體力 +100%；攻擊力 +2500；傷害減少值 +10%</td></tr><tr><td>SIN</td><td>迴避值 +120</td><td>迴避值 +160；攻擊速度 +1%</td><td>迴避值 +200；攻擊速度 +2%</td></tr></tbody></table></div>
+<h3 id="手">手<a class="heading-anchor" href="#手" aria-label="手">#</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-wrap"><table><thead><tr><th>類型</th><th>MB</th><th>GB</th><th>TB</th></tr></thead><tbody><tr><td>SD</td><td>最大耐力 +11；攻擊速度 +3%</td><td>最大耐力 +14；攻擊速度 +4%；移動速度 +3%</td><td>最大耐力 +17；攻擊速度 +5%；移動速度 +4%</td></tr><tr><td>BSK</td><td>攻擊速度 +3%；移動速度 +3%</td><td>攻擊速度 +5%；移動速度 +5%</td><td>攻擊速度 +6%；移動速度 +6%</td></tr><tr><td>FOT</td><td>最大耐力 +10；暴擊傷害 +392；命中值 +98</td><td>最大耐力 +14；暴擊傷害 +560；命中值 +140</td><td>最大耐力 +20；暴擊傷害 +800；命中值 +200</td></tr><tr><td>SIN</td><td>攻擊速度 +3%；暴擊率 +1%</td><td>攻擊速度 +5%；暴擊率 +2%</td><td>攻擊速度 +6%；暴擊率 +3%</td></tr></tbody></table></div>
+<h3 id="下裝">下裝<a class="heading-anchor" href="#下裝" aria-label="下裝">#</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-wrap"><table><thead><tr><th>類型</th><th>MB</th><th>GB</th><th>TB</th></tr></thead><tbody><tr><td>SD</td><td>迴避值 +49；暴擊抵抗 +3%</td><td>迴避值 +70；暴擊抵抗 +4%；傷害減少值 +4%</td><td>迴避值 +100；暴擊抵抗 +5%；傷害減少值 +5%</td></tr><tr><td>BSK</td><td>霸體破壞力 +12%</td><td>霸體破壞力 +18%</td><td>霸體破壞力 +25%</td></tr><tr><td>FOT</td><td>防禦力 +49%；傷害減少值 +3%；體力 +2450</td><td>防禦力 +70%；傷害減少值 +4%；體力 +3500</td><td>防禦力 +100%；傷害減少值 +5%；體力 +5000</td></tr><tr><td>SIN</td><td>暴擊傷害 +950；戰鬥區域移動速度 +1%</td><td>暴擊傷害 +1150；戰鬥區域移動速度 +2%</td><td>暴擊傷害 +1350；戰鬥區域移動速度 +3%</td></tr></tbody></table></div>
+<h3 id="鞋子">鞋子<a class="heading-anchor" href="#鞋子" aria-label="鞋子">#</a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-wrap"><table><thead><tr><th>類型</th><th>MB</th><th>GB</th><th>TB</th></tr></thead><tbody><tr><td>SD</td><td>命中值 +58；暴擊傷害 +800</td><td>命中值 +84；暴擊傷害 +900；暴擊率 +1%</td><td>命中值 +120；暴擊傷害 +1000；暴擊率 +2%</td></tr><tr><td>BSK</td><td>暴擊傷害 +1000</td><td>暴擊傷害 +1350</td><td>暴擊傷害 +1700</td></tr><tr><td>FOT</td><td>最大體力 +3920；耐力恢復 +3；攻擊力 +245</td><td>最大體力 +5600；耐力恢復 +4；攻擊力 +350</td><td>最大體力 +8000；耐力恢復 +5；攻擊力 +500</td></tr><tr><td>SIN</td><td>暴擊率 +1%；霸體破壞力 +7%</td><td>暴擊率 +2%；霸體破壞力 +10%</td><td>暴擊率 +3%；霸體破壞力 +15%</td></tr></tbody></table></div>
 <div class="callout callout--tip"><div class="callout-title"><span class="callout-icon" aria-hidden="true"></span>提示</div><div class="callout-body"><p>一般從 <strong>MEGA（黃）</strong> 開始往上挑就好，MEGA 以下的數值增幅太低，主要拿來當合成材料。套裝效果也吃稀有度，所以盡量讓整件防具的 3 顆同色。</p></div></div>
-<h2 id="屬性分類">屬性分類<a class="heading-anchor" href="#屬性分類" aria-label="屬性分類">#</a></h2>
-<p>每種型號的勳章又分成三類，依角色定位選擇：</p>
-<ul>
-<li><strong>攻擊型</strong>：攻擊力、貫穿、對 BOSS 傷害、爆擊等</li>
-<li><strong>防禦型</strong>：受擊觸發、迴避、減傷等</li>
-<li><strong>功能型</strong>：攻速、移速、耐力、靈魂槽恢復等輔助效果</li>
-</ul>
 <h2 id="合成">合成<a class="heading-anchor" href="#合成" aria-label="合成">#</a></h2>
 <p><img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E5%8B%B3%E7%AB%A0%E7%AF%87/%E5%8B%B3%E7%AB%A0%E7%9B%AE%E9%8C%84/file-20260614170505731.png" alt="" loading="lazy" decoding="async" width="337" height="333"></p>
 <div class="callout callout--tip"><div class="callout-title"><span class="callout-icon" aria-hidden="true"></span>合成器可以在由美以50000金幣購買</div><div class="callout-body"><p><img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E5%8B%B3%E7%AB%A0%E7%AF%87/%E5%8B%B3%E7%AB%A0%E7%9B%AE%E9%8C%84/file-20260614170531079.png" alt="" loading="lazy" decoding="async" width="797" height="712"></p></div></div>
 <p><img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E5%8B%B3%E7%AB%A0%E7%AF%87/%E5%8B%B3%E7%AB%A0%E7%9B%AE%E9%8C%84/file-20260614170337527.png" alt="" loading="lazy" decoding="async" width="328" height="446">
 <img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E5%8B%B3%E7%AB%A0%E7%AF%87/%E5%8B%B3%E7%AB%A0%E7%9B%AE%E9%8C%84/file-20260614170325814.png" alt="" loading="lazy" decoding="async" width="334" height="446"></p>
+<h3 id="合成機率">合成機率<a class="heading-anchor" href="#合成機率" aria-label="合成機率">#</a></h3>
 
 
 
@@ -312,6 +577,7 @@ c:["$","$1","h",{"children":[null,[["$","$L13",null,{"children":"$L14"}],null],[
 <div class="callout callout--warning"><div class="callout-title"><span class="callout-icon" aria-hidden="true"></span>警告</div><div class="callout-body"><p>已擴充 PB 勳章插槽的時裝<strong>無法包裝</strong>。</p></div></div>
 <h3 id="合成方法">合成方法<a class="heading-anchor" href="#合成方法" aria-label="合成方法">#</a></h3>
 <p>PB 勳章只能透過「<strong>PB 勳章合成器</strong>」，以 <strong>TB 勳章或 PB 勳章</strong>作為材料合成取得。</p>
+<p><img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E5%8B%B3%E7%AB%A0%E7%AF%87/%E5%8B%B3%E7%AB%A0%E7%9B%AE%E9%8C%84/file-20260615224630777.png" alt="" loading="lazy" decoding="async" width="249" height="256"></p>
 <ul>
 <li>必須用 TB／PB 等級的勳章<strong>填滿 5 格</strong>才能合成，也可以放超過所需格數的素材。</li>
 <li>合成結果為<strong>隨機</strong>出現帶有各種職業專屬技能的 PB 勳章。</li>
@@ -361,7 +627,7 @@ c:["$","$1","h",{"children":[null,[["$","$L13",null,{"children":"$L14"}],null],[
 <li>同型號勳章的選擇（SD BSK FOT SIN）<a href="https://www.3loumao.org/6833.html" target="_blank" rel="noopener noreferrer">https://www.3loumao.org/6833.html</a></li>
 <li>靈魂行者新手指南 Ver.0.84（Steam）<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2587886016" target="_blank" rel="noopener noreferrer">https://steamcommunity.com/sharedfiles/filedetails/?id=2587886016</a></li>
 <li>場外Soul Worker 靈魂行者集中串 KR 3/11更新內容 <a href="https://forum.gamer.com.tw/Co.php?bsn=60076&#x26;sn=107662028" target="_blank" rel="noopener noreferrer">https://forum.gamer.com.tw/Co.php?bsn=60076&#x26;sn=107662028</a></li>
-</ul>e:["$","div",null,{"className":"mx-auto w-full max-w-6xl px-4 py-12","children":[["$","div",null,{"className":"flex items-start gap-10","children":[["$","article",null,{"className":"mx-auto w-full min-w-0 max-w-4xl flex-1","children":[["$","nav",null,{"aria-label":"麵包屑","className":"flex flex-wrap items-center gap-2 text-sm text-ink-faint","children":[["$","$L5",null,{"href":"/","className":"transition-colors hover:text-cyan","children":"首頁"}],[["$","span",null,{"aria-hidden":"true","className":"text-ink-faint","children":"›"}],["$","$L5",null,{"href":"/categories/系統/","className":"transition-colors hover:text-cyan","children":"系統"}]],["$","span",null,{"aria-hidden":"true","className":"text-ink-faint","children":"›"}],["$","span",null,{"className":"min-w-0 truncate text-ink-dim","children":"勳章目錄"}]]}],["$","header",null,{"className":"mt-5 space-y-4","children":[["$","h1",null,{"className":"text-3xl font-black leading-tight tracking-wide text-ink sm:text-4xl","children":"勳章目錄"}],["$","div",null,{"className":"flex flex-wrap items-center gap-x-3 gap-y-2","children":[[["$","$L5","系統",{"href":"/categories/系統/","className":"capsule text-[0.78rem]","children":"系統"}],["$","$L5","勳章",{"href":"/categories/勳章/","className":"capsule text-[0.78rem]","children":"勳章"}],["$","$L5","目錄",{"href":"/categories/目錄/","className":"capsule text-[0.78rem]","children":"目錄"}]],["$","p",null,{"className":"font-display text-xs font-semibold uppercase tracking-[0.22em] text-ink-faint","children":["發布 ","2025-09-28"," · 更新 ","2026-06-14"," ·"," ",1246," 字 · 約 ",3," 分鐘"]}]]}]]}],["$","details",null,{"className":"panel panel-static mt-8 px-5 py-4 xl:hidden","children":[["$","summary",null,{"className":"hud-chip cursor-pointer select-none list-none [&::-webkit-details-marker]:hidden","children":"目錄 INDEX"}],["$","div",null,{"className":"mt-4","children":["$","$L18",null,{"toc":[{"id":"勳章是什麼","text":"勳章是什麼","depth":2},{"id":"四種型號","text":"四種型號","depth":2},{"id":"稀有度由弱到強","text":"稀有度（由弱到強）","depth":2},{"id":"屬性分類","text":"屬性分類","depth":2},{"id":"合成","text":"合成","depth":2},{"id":"主題機率","text":"主題機率","depth":3},{"id":"類型機率","text":"類型機率","depth":3},{"id":"pb-勳章角色技能勳章","text":"PB 勳章（角色技能勳章）","depth":2},{"id":"插槽擴充","text":"插槽擴充","depth":3},{"id":"合成方法","text":"合成方法","depth":3},{"id":"種類與效果","text":"種類與效果","depth":3},{"id":"分頁","text":"分頁","depth":2},{"id":"相關資料","text":"相關資料","depth":2}],"hideHeader":true}]}]]}],null,["$","div",null,{"className":"mt-8","children":[["$","$L19",null,{"lastmod":"2026-06-14T00:00:00.000Z"}],["$","div",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$1a"}}]]}],"$L1b","$L1c"]}],"$L1d"]}],"$L1e","$L1f","$L20"]}]
+</ul>e:["$","div",null,{"className":"mx-auto w-full max-w-6xl px-4 py-12","children":[["$","div",null,{"className":"flex items-start gap-10","children":[["$","article",null,{"className":"mx-auto w-full min-w-0 max-w-4xl flex-1","children":[["$","nav",null,{"aria-label":"麵包屑","className":"flex flex-wrap items-center gap-2 text-sm text-ink-faint","children":[["$","$L5",null,{"href":"/","className":"transition-colors hover:text-cyan","children":"首頁"}],[["$","span",null,{"aria-hidden":"true","className":"text-ink-faint","children":"›"}],["$","$L5",null,{"href":"/categories/系統/","className":"transition-colors hover:text-cyan","children":"系統"}]],["$","span",null,{"aria-hidden":"true","className":"text-ink-faint","children":"›"}],["$","span",null,{"className":"min-w-0 truncate text-ink-dim","children":"勳章目錄"}]]}],["$","header",null,{"className":"mt-5 space-y-4","children":[["$","h1",null,{"className":"text-3xl font-black leading-tight tracking-wide text-ink sm:text-4xl","children":"勳章目錄"}],["$","div",null,{"className":"flex flex-wrap items-center gap-x-3 gap-y-2","children":[[["$","$L5","系統",{"href":"/categories/系統/","className":"capsule text-[0.78rem]","children":"系統"}],["$","$L5","勳章",{"href":"/categories/勳章/","className":"capsule text-[0.78rem]","children":"勳章"}],["$","$L5","目錄",{"href":"/categories/目錄/","className":"capsule text-[0.78rem]","children":"目錄"}]],["$","p",null,{"className":"font-display text-xs font-semibold uppercase tracking-[0.22em] text-ink-faint","children":["發布 ","2025-09-28"," · 更新 ","2026-06-14"," ·"," ",2296," 字 · 約 ",5," 分鐘"]}]]}]]}],["$","details",null,{"className":"panel panel-static mt-8 px-5 py-4 xl:hidden","children":[["$","summary",null,{"className":"hud-chip cursor-pointer select-none list-none [&::-webkit-details-marker]:hidden","children":"目錄 INDEX"}],["$","div",null,{"className":"mt-4","children":["$","$L18",null,{"toc":[{"id":"勳章是什麼","text":"勳章是什麼","depth":2},{"id":"時裝孔洞","text":"時裝孔洞","depth":2},{"id":"勳章類型","text":"勳章類型","depth":2},{"id":"屬性種類","text":"屬性種類","depth":3},{"id":"等級","text":"等級","depth":3},{"id":"可交易勳章","text":"可交易勳章","depth":3},{"id":"勳章套裝組合效果","text":"勳章套裝組合效果","depth":2},{"id":"頭","text":"頭","depth":3},{"id":"上衣","text":"上衣","depth":3},{"id":"手","text":"手","depth":3},{"id":"下裝","text":"下裝","depth":3},{"id":"鞋子","text":"鞋子","depth":3},{"id":"合成","text":"合成","depth":2},{"id":"合成機率","text":"合成機率","depth":3},{"id":"主題機率","text":"主題機率","depth":3},{"id":"類型機率","text":"類型機率","depth":3},{"id":"pb-勳章角色技能勳章","text":"PB 勳章（角色技能勳章）","depth":2},{"id":"插槽擴充","text":"插槽擴充","depth":3},{"id":"合成方法","text":"合成方法","depth":3},{"id":"種類與效果","text":"種類與效果","depth":3},{"id":"分頁","text":"分頁","depth":2},{"id":"相關資料","text":"相關資料","depth":2}],"hideHeader":true}]}]]}],null,["$","div",null,{"className":"mt-8","children":[["$","$L19",null,{"lastmod":"2026-06-14T00:00:00.000Z"}],["$","div",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$1a"}}]]}],"$L1b","$L1c"]}],"$L1d"]}],"$L1e","$L1f","$L20"]}]
 21:I[4971,["898","static/chunks/898-dd3a73578fffcbfe.js","575","static/chunks/app/post/%5B...slug%5D/page-2db71988ea81d1dd.js"],"default"]
 22:I[5435,["898","static/chunks/898-dd3a73578fffcbfe.js","575","static/chunks/app/post/%5B...slug%5D/page-2db71988ea81d1dd.js"],"default"]
 23:I[1842,["898","static/chunks/898-dd3a73578fffcbfe.js","575","static/chunks/app/post/%5B...slug%5D/page-2db71988ea81d1dd.js"],"default"]
