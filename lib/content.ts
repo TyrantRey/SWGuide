@@ -39,7 +39,6 @@ export interface PostMeta {
   hasExplicitCover: boolean;
   /** CJK-aware word count of the body. */
   wordCount: number;
-  readingMinutes: number;
 }
 
 export interface Post extends PostMeta {
@@ -171,7 +170,6 @@ function loadDocs(): RawDoc[] {
         cover: explicitCover || pickCover(slug),
         hasExplicitCover: Boolean(explicitCover),
         wordCount,
-        readingMinutes: Math.max(1, Math.ceil(wordCount / 500)),
       },
       body: content,
     });

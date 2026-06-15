@@ -33,7 +33,7 @@ export default function PostCard({ post }: { post: PostMeta }) {
               </span>
             ))}
             <time className="font-display text-xs font-semibold tracking-[0.2em] text-ink-faint">
-              {formatDate(post.date)}
+              {formatDate(post.lastmod)}
             </time>
           </span>
           <span className="truncate text-lg font-bold text-ink transition-colors group-hover:text-cyan">
@@ -45,7 +45,7 @@ export default function PostCard({ post }: { post: PostMeta }) {
             </span>
           ) : null}
           <span className="mt-auto pt-1 font-display text-[0.7rem] font-semibold tracking-[0.25em] text-ink-faint">
-            {post.wordCount} 字 · 約 {post.readingMinutes} 分鐘
+            {post.wordCount} 字
           </span>
         </span>
       </Link>

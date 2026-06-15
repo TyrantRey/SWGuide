@@ -104,8 +104,7 @@ export default async function PostPage({ params }: PostPageProps) {
                 </Link>
               ))}
               <p className="font-display text-xs font-semibold uppercase tracking-[0.22em] text-ink-faint">
-                發布 {formatDate(post.date)} · 更新 {formatDate(post.lastmod)} ·{" "}
-                {post.wordCount} 字 · 約 {post.readingMinutes} 分鐘
+                發布 {formatDate(post.lastmod)} · {post.wordCount} 字
               </p>
             </div>
           </header>
