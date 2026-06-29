@@ -31,7 +31,7 @@ export default function QuickStart({ items }: { items: QuickStartItem[] }) {
                 />
                 <span
                   aria-hidden="true"
-                  className="absolute inset-0 bg-gradient-to-t from-[rgba(17,26,46,0.92)] via-[rgba(17,26,46,0.3)] to-transparent"
+                  className="absolute inset-0 bg-liner-to-t from-[rgba(17,26,46,0.92)] via-[rgba(17,26,46,0.3)] to-transparent"
                 />
                 <span
                   aria-hidden="true"

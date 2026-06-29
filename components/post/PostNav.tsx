@@ -20,7 +20,7 @@ function NavCard({ post, label, align }: NavCardProps) {
   if (!post) {
     return (
       <div
-        className={`panel panel-static flex min-h-[6.5rem] flex-col justify-center gap-2 p-5 opacity-40 ${alignment}`}
+        className={`panel panel-static flex min-h-26 flex-col justify-center gap-2 p-5 opacity-40 ${alignment}`}
         aria-hidden="true"
       >
         <span className="font-display text-xs font-semibold uppercase tracking-[0.3em] text-ink-faint">
@@ -39,7 +39,7 @@ function NavCard({ post, label, align }: NavCardProps) {
   return (
     <Link
       href={post.url}
-      className={`panel group relative flex min-h-[6.5rem] flex-col justify-center gap-2 overflow-hidden p-5 ${alignment}`}
+      className={`panel group relative flex min-h-26 flex-col justify-center gap-2 overflow-hidden p-5 ${alignment}`}
     >
       {/* cover thumb background */}
       {/* eslint-disable-next-line @next/next/no-img-element */}

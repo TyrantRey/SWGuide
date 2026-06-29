@@ -180,6 +180,27 @@
   }
 }
 
+/* number input for the damage calculator (components/damage/DamageCalculator.tsx) */
+@utility calc-input {
+  @apply w-full text-ink tabular-nums;
+  padding: 0.5em 0.75em;
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-line-bright);
+  outline: none;
+  clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 0 100%);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  &:focus {
+    border-color: var(--color-cyan);
+    box-shadow:
+      0 0 0 1px --alpha(var(--color-cyan) / 30%),
+      0 0 14px -5px --alpha(var(--color-cyan) / 55%);
+  }
+}
+
 /* ============================================================
    Article body (.prose) — rendered markdown from lib/markdown.ts.
    Selectors target server-generated HTML strings, so they stay as

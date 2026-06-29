@@ -6,6 +6,7 @@ import { SITE_SUBTITLE, AVATAR_IMAGE, withBase } from "@/lib/site";
 
 const NAV = [
   { label: "首頁", en: "HOME", href: "/" },
+  { label: "傷害計算", en: "DAMAGE", href: "/damage/" },
   { label: "彙整", en: "ARCHIVES", href: "/archives/" },
   { label: "分類", en: "CATEGORIES", href: "/categories/" },
   { label: "標籤", en: "TAGS", href: "/tags/" },
@@ -25,7 +26,7 @@ export default function SiteHeader() {
             alt=""
             width={34}
             height={34}
-            className="h-[34px] w-[34px] shrink-0 rounded border border-line-bright"
+            className="h-8.5 w-8.5 shrink-0 rounded border border-line-bright"
           />
           <span className="flex min-w-0 flex-col leading-tight">
             <span className="truncate font-bold tracking-wide text-ink">
@@ -47,9 +48,8 @@ export default function SiteHeader() {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`group relative flex shrink-0 flex-col items-center px-3 py-1 transition-colors ${
-                  active ? "text-cyan" : "text-ink-dim hover:text-ink"
-                }`}
+                className={`group relative flex shrink-0 flex-col items-center px-3 py-1 transition-colors ${active ? "text-cyan" : "text-ink-dim hover:text-ink"
+                  }`}
               >
                 <span className="text-sm font-medium">{item.label}</span>
                 <span
@@ -59,11 +59,10 @@ export default function SiteHeader() {
                   {item.en}
                 </span>
                 <span
-                  className={`absolute inset-x-2 -bottom-[11px] h-[2px] transition-all ${
-                    active
+                  className={`absolute inset-x-2 -bottom-2.75 h-0.5 transition-all ${active
                       ? "bg-cyan shadow-[0_0_10px_rgba(61,232,255,0.8)]"
                       : "bg-transparent group-hover:bg-line-bright"
-                  }`}
+                    }`}
                   aria-hidden="true"
                 />
               </Link>

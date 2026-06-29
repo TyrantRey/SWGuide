@@ -36,21 +36,21 @@ export default function Hero({ stats }: { stats: HeroStat[] }) {
       {/* dark gradient overlays so text pops */}
       <div
         aria-hidden="true"
-        className="absolute inset-0 bg-gradient-to-r from-bg via-bg/80 to-bg/20"
+        className="absolute inset-0 bg-linear-to-r from-bg via-bg/80 to-bg/20"
       />
       <div
         aria-hidden="true"
-        className="absolute inset-0 bg-gradient-to-t from-bg via-transparent to-bg/70"
+        className="absolute inset-0 bg-linear-to-t from-bg via-transparent to-bg/70"
       />
       {/* scanlines */}
       <div
         aria-hidden="true"
-        className="absolute inset-0 opacity-30 [background-image:repeating-linear-gradient(0deg,rgba(0,0,0,0.4)_0_1px,transparent_1px_4px)]"
+        className="absolute inset-0 opacity-30 bg-[repeating-linear-gradient(0deg,rgba(0,0,0,0.4)_0_1px,transparent_1px_4px)]"
       />
       {/* faint HUD grid */}
       <div
         aria-hidden="true"
-        className="absolute inset-0 [background-image:linear-gradient(rgba(61,232,255,0.04)_1px,transparent_1px),linear-gradient(90deg,rgba(61,232,255,0.04)_1px,transparent_1px)] [background-size:48px_48px]"
+        className="absolute inset-0 bg-[linear-gradient(rgba(61,232,255,0.04)_1px,transparent_1px),linear-gradient(90deg,rgba(61,232,255,0.04)_1px,transparent_1px)] [bg-size:48px_48px]"
       />
 
       <div className="relative mx-auto w-full max-w-6xl px-4 pb-14 pt-24 md:pb-16 md:pt-32">
@@ -65,10 +65,6 @@ export default function Hero({ stats }: { stats: HeroStat[] }) {
             //
           </span>
           {SITE_SUBTITLE}
-        </p>
-
-        <p className="mt-2 font-display text-sm font-semibold uppercase tracking-[0.3em] text-ink-dim md:text-base">
-          {SITE_DESCRIPTION}
         </p>
 
         <div className="mt-9 flex flex-wrap items-center gap-4">
