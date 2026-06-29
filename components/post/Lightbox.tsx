@@ -42,20 +42,20 @@ export default function Lightbox() {
 
   return (
     <div
-      className="fixed inset-0 z-[100] flex items-center justify-center p-[4vmin] bg-[rgba(5,8,16,0.88)] backdrop-blur-[4px] cursor-zoom-out animate-lightbox-fade"
+      className="fixed inset-0 z-100 flex items-center justify-center p-[4vmin] bg-[rgba(5,8,16,0.88)] backdrop-blur-xs cursor-zoom-out animate-lightbox-fade"
       role="dialog"
       aria-modal="true"
       onClick={close}
     >
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        className="max-w-[92vw] max-h-[92vh] w-auto h-auto rounded-[6px] border border-line-bright shadow-[0_24px_70px_rgba(0,0,0,0.65)]"
+        className="max-w-[92vw] max-h-[92vh] w-auto h-auto rounded-md border border-line-bright shadow-[0_24px_70px_rgba(0,0,0,0.65)]"
         src={view.src}
         alt={view.alt}
       />
       <button
         type="button"
-        className="fixed top-[1.1rem] right-[1.3rem] flex items-center justify-center w-[2.4rem] h-[2.4rem] text-[1.7rem] leading-none rounded-[4px] text-ink bg-[rgba(13,19,34,0.85)] border border-line-bright cursor-pointer hover:text-cyan hover:border-cyan"
+        className="fixed top-[1.1rem] right-[1.3rem] flex items-center justify-center w-[2.4rem] h-[2.4rem] text-[1.7rem] leading-none rounded-sm text-ink bg-[rgba(13,19,34,0.85)] border border-line-bright cursor-pointer hover:text-cyan hover:border-cyan"
         aria-label="關閉"
         onClick={close}
       >
