@@ -12,7 +12,7 @@ export default function PostCard({ post }: { post: PostMeta }) {
   return (
     <article className="panel group">
       <Link href={post.url} className="flex items-stretch gap-0">
-        <span className="relative block w-[168px] shrink-0 self-stretch overflow-hidden max-sm:w-[108px]">
+        <span className="relative block w-42 shrink-0 self-stretch overflow-hidden max-sm:w-27">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={withBase(encodePath(post.cover))}
@@ -21,7 +21,7 @@ export default function PostCard({ post }: { post: PostMeta }) {
             className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
           />
           <span
-            className="absolute inset-0 bg-gradient-to-r from-transparent to-[rgba(17,26,46,0.85)]"
+            className="absolute inset-0 bg-liner-to-r from-transparent to-[rgba(17,26,46,0.85)]"
             aria-hidden="true"
           />
         </span>
