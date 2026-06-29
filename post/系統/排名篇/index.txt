@@ -1,11 +1,11 @@
 1:"$Sreact.fragment"
-2:I[3942,["898","static/chunks/898-dd3a73578fffcbfe.js","177","static/chunks/app/layout-f4020733aaec8441.js"],"default"]
+2:I[3942,["898","static/chunks/898-dd3a73578fffcbfe.js","177","static/chunks/app/layout-2d90901ed049d99c.js"],"default"]
 3:I[4827,[],""]
 4:I[1063,[],""]
-5:I[8898,["898","static/chunks/898-dd3a73578fffcbfe.js","575","static/chunks/app/post/%5B...slug%5D/page-2db71988ea81d1dd.js"],""]
+5:I[8898,["898","static/chunks/898-dd3a73578fffcbfe.js","575","static/chunks/app/post/%5B...slug%5D/page-7aeacfb4020e8f6e.js"],""]
 d:I[6177,[],""]
-:HL["/SWGuide/_next/static/css/94097a2d34ac2726.css","style"]
-0:{"P":null,"b":"mrJH4c8aFSaZGxNQnQEOm","p":"/SWGuide","c":["","post","%E7%B3%BB%E7%B5%B1","%E6%8E%92%E5%90%8D%E7%AF%87",""],"i":false,"f":[[["",{"children":["post",{"children":[["slug","%E7%B3%BB%E7%B5%B1/%E6%8E%92%E5%90%8D%E7%AF%87","c"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/SWGuide/_next/static/css/94097a2d34ac2726.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh-TW","children":["$","body",null,{"className":"min-h-screen flex flex-col antialiased","children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Rajdhani:wght@500;600;700&display=swap"}],["$","$L2",null,{}],["$","main",null,{"className":"flex-1 w-full","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"flex min-h-[72vh] flex-col items-center justify-center px-4 py-16 text-center","children":[["$","div",null,{"className":"hud-chip","children":"Connection Lost"}],["$","div",null,{"className":"text-gradient mt-4 font-display text-[clamp(5.5rem,18vw,10rem)] font-bold leading-none tracking-[0.08em] drop-shadow-[0_0_28px_rgba(61,232,255,0.35)]","aria-hidden":"true","children":"404"}],["$","p",null,{"className":"mt-6 text-xl font-bold text-ink","children":"満身創痍 (ﾟ⊿ﾟ)ﾂ — 這個頁面已經退坑了"}],["$","p",null,{"className":"mt-3 max-w-md text-sm leading-relaxed text-ink-dim","children":"訊號中斷：你要找的攻略可能已改名、搬家，或從未存在。 到彙整頁看看吧，所有文章都在那裡待命。"}],["$","div",null,{"className":"mt-10 flex flex-wrap items-center justify-center gap-4","children":[["$","$L5",null,{"href":"/","className":"inline-flex items-baseline gap-2 border border-cyan/60 bg-cyan/10 px-7 py-3 font-bold text-cyan transition-all duration-200 [clip-path:polygon(12px_0,100%_0,calc(100%_-_12px)_100%,0_100%)] hover:bg-cyan/20 hover:shadow-[0_0_28px_rgba(61,232,255,0.3)]","children":["返回首頁",["$","span",null,{"className":"font-display text-xs font-semibold tracking-[0.3em]","children":"/ HOME"}]]}],["$","$L5",null,{"href":"/archives/","className":"inline-flex items-baseline gap-2 border border-magenta/50 bg-magenta/10 px-7 py-3 font-bold text-magenta transition-all duration-200 [clip-path:polygon(12px_0,100%_0,calc(100%_-_12px)_100%,0_100%)] hover:bg-magenta/20 hover:shadow-[0_0_28px_rgba(255,61,138,0.3)]","children":["瀏覽彙整",["$","span",null,{"className":"font-display text-xs font-semibold tracking-[0.3em]","children":"/ ARCHIVES"}]]}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"mt-20 border-t border-line bg-[rgba(12,17,32,0.6)]","children":["$","div",null,{"className":"mx-auto flex max-w-6xl flex-col items-center gap-4 px-4 py-10 text-center","children":[["$","div",null,{"className":"hud-chip","children":"SOULWORKER GUIDE"}],["$","p",null,{"className":"text-sm text-ink-dim","children":["© ","2025–2026"," ","TyrantRey"," · ","Soulworker 靈魂行者退坑指南"]}],["$","nav",null,{"className":"flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-sm","children":[["$","a","GitHub",{"href":"https://github.com/TyrantRey","target":"_blank","rel":"noopener noreferrer","className":"font-display font-semibold tracking-[0.18em] text-ink-faint transition-colors hover:text-cyan","children":"GITHUB"}],["$","a","YouTube",{"href":"https://www.youtube.com/@tyrantrey","target":"_blank","rel":"noopener noreferrer","className":"font-display font-semibold tracking-[0.18em] text-ink-faint transition-colors hover:text-cyan","children":"YOUTUBE"}],["$","a","Discord",{"href":"https://discordapp.com/users/496941805196017673","target":"_blank","rel":"noopener noreferrer","className":"font-display font-semibold tracking-[0.18em] text-ink-faint transition-colors hover:text-cyan","children":"DISCORD"}],"$L6","$L7"]}],"$L8"]}]}]]}]}]]}],{"children":["post","$L9",{"children":[["slug","%E7%B3%BB%E7%B5%B1/%E6%8E%92%E5%90%8D%E7%AF%87","c"],"$La",{"children":["__PAGE__","$Lb",{},null,false]},null,false]},null,false]},null,false],"$Lc",false]],"m":"$undefined","G":["$d",[]],"s":false,"S":true}
+:HL["/SWGuide/_next/static/css/3ac0945385126ad4.css","style"]
+0:{"P":null,"b":"Cry9jl_sQ6e--63XBZ3Hz","p":"/SWGuide","c":["","post","%E7%B3%BB%E7%B5%B1","%E6%8E%92%E5%90%8D%E7%AF%87",""],"i":false,"f":[[["",{"children":["post",{"children":[["slug","%E7%B3%BB%E7%B5%B1/%E6%8E%92%E5%90%8D%E7%AF%87","c"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/SWGuide/_next/static/css/3ac0945385126ad4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh-TW","children":["$","body",null,{"className":"min-h-screen flex flex-col antialiased","children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Rajdhani:wght@500;600;700&display=swap"}],["$","$L2",null,{}],["$","main",null,{"className":"flex-1 w-full","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"flex min-h-[72vh] flex-col items-center justify-center px-4 py-16 text-center","children":[["$","div",null,{"className":"hud-chip","children":"Connection Lost"}],["$","div",null,{"className":"text-gradient mt-4 font-display text-[clamp(5.5rem,18vw,10rem)] font-bold leading-none tracking-[0.08em] drop-shadow-[0_0_28px_rgba(61,232,255,0.35)]","aria-hidden":"true","children":"404"}],["$","p",null,{"className":"mt-6 text-xl font-bold text-ink","children":"満身創痍 (ﾟ⊿ﾟ)ﾂ — 這個頁面已經退坑了"}],["$","p",null,{"className":"mt-3 max-w-md text-sm leading-relaxed text-ink-dim","children":"訊號中斷：你要找的攻略可能已改名、搬家，或從未存在。 到彙整頁看看吧，所有文章都在那裡待命。"}],["$","div",null,{"className":"mt-10 flex flex-wrap items-center justify-center gap-4","children":[["$","$L5",null,{"href":"/","className":"inline-flex items-baseline gap-2 border border-cyan/60 bg-cyan/10 px-7 py-3 font-bold text-cyan transition-all duration-200 [clip-path:polygon(12px_0,100%_0,calc(100%_-_12px)_100%,0_100%)] hover:bg-cyan/20 hover:shadow-[0_0_28px_rgba(61,232,255,0.3)]","children":["返回首頁",["$","span",null,{"className":"font-display text-xs font-semibold tracking-[0.3em]","children":"/ HOME"}]]}],["$","$L5",null,{"href":"/archives/","className":"inline-flex items-baseline gap-2 border border-magenta/50 bg-magenta/10 px-7 py-3 font-bold text-magenta transition-all duration-200 [clip-path:polygon(12px_0,100%_0,calc(100%_-_12px)_100%,0_100%)] hover:bg-magenta/20 hover:shadow-[0_0_28px_rgba(255,61,138,0.3)]","children":["瀏覽彙整",["$","span",null,{"className":"font-display text-xs font-semibold tracking-[0.3em]","children":"/ ARCHIVES"}]]}]]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"mt-20 border-t border-line bg-[rgba(12,17,32,0.6)]","children":["$","div",null,{"className":"mx-auto flex max-w-6xl flex-col items-center gap-4 px-4 py-10 text-center","children":[["$","div",null,{"className":"hud-chip","children":"SOULWORKER GUIDE"}],["$","p",null,{"className":"text-sm text-ink-dim","children":["© ","2025–2026"," ","TyrantRey"," · ","Soulworker 靈魂行者退坑指南"]}],["$","nav",null,{"className":"flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-sm","children":[["$","a","GitHub",{"href":"https://github.com/TyrantRey","target":"_blank","rel":"noopener noreferrer","className":"font-display font-semibold tracking-[0.18em] text-ink-faint transition-colors hover:text-cyan","children":"GITHUB"}],["$","a","YouTube",{"href":"https://www.youtube.com/@tyrantrey","target":"_blank","rel":"noopener noreferrer","className":"font-display font-semibold tracking-[0.18em] text-ink-faint transition-colors hover:text-cyan","children":"YOUTUBE"}],["$","a","Discord",{"href":"https://discordapp.com/users/496941805196017673","target":"_blank","rel":"noopener noreferrer","className":"font-display font-semibold tracking-[0.18em] text-ink-faint transition-colors hover:text-cyan","children":"DISCORD"}],"$L6","$L7"]}],"$L8"]}]}]]}]}]]}],{"children":["post","$L9",{"children":[["slug","%E7%B3%BB%E7%B5%B1/%E6%8E%92%E5%90%8D%E7%AF%87","c"],"$La",{"children":["__PAGE__","$Lb",{},null,false]},null,false]},null,false]},null,false],"$Lc",false]],"m":"$undefined","G":["$d",[]],"s":false,"S":true}
 f:I[6050,[],"OutletBoundary"]
 11:I[9479,[],"AsyncMetadataOutlet"]
 13:I[6050,[],"ViewportBoundary"]
@@ -18,16 +18,351 @@ f:I[6050,[],"OutletBoundary"]
 a:["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
 b:["$","$1","c",{"children":["$Le",null,["$","$Lf",null,{"children":["$L10",["$","$L11",null,{"promise":"$@12"}]]}]]}]
 c:["$","$1","h",{"children":[null,[["$","$L13",null,{"children":"$L14"}],null],["$","$L15",null,{"children":["$","div",null,{"hidden":true,"children":["$","$16",null,{"fallback":null,"children":"$L17"}]}]}]]}]
-18:I[2692,["898","static/chunks/898-dd3a73578fffcbfe.js","575","static/chunks/app/post/%5B...slug%5D/page-2db71988ea81d1dd.js"],"default"]
-e:["$","div",null,{"className":"mx-auto w-full max-w-6xl px-4 py-12","children":[["$","div",null,{"className":"flex items-start gap-10","children":[["$","article",null,{"className":"mx-auto w-full min-w-0 max-w-4xl flex-1","children":[["$","nav",null,{"aria-label":"麵包屑","className":"flex flex-wrap items-center gap-2 text-sm text-ink-faint","children":[["$","$L5",null,{"href":"/","className":"transition-colors hover:text-cyan","children":"首頁"}],[["$","span",null,{"aria-hidden":"true","className":"text-ink-faint","children":"›"}],["$","$L5",null,{"href":"/categories/排名/","className":"transition-colors hover:text-cyan","children":"排名"}]],["$","span",null,{"aria-hidden":"true","className":"text-ink-faint","children":"›"}],["$","span",null,{"className":"min-w-0 truncate text-ink-dim","children":"排名篇"}]]}],["$","header",null,{"className":"mt-5 space-y-4","children":[["$","h1",null,{"className":"text-3xl font-black leading-tight tracking-wide text-ink sm:text-4xl","children":"排名篇"}],["$","div",null,{"className":"flex flex-wrap items-center gap-x-3 gap-y-2","children":[[["$","$L5","排名",{"href":"/categories/排名/","className":"capsule text-[0.78rem]","children":"排名"}]],["$","p",null,{"className":"font-display text-xs font-semibold uppercase tracking-[0.22em] text-ink-faint","children":["發布 ","2026-06-17"," · ",1," 字"]}]]}]]}],null,null,["$","div",null,{"className":"mt-8","children":[["$","$L18",null,{"lastmod":"2026-06-17T00:00:00.000Z"}],["$","div",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"<div class=\"callout callout--warning\"><div class=\"callout-title\"><span class=\"callout-icon\" aria-hidden=\"true\"></span>警告</div><div class=\"callout-body\"></div></div>"}}]]}],["$","div",null,{"className":"mt-10 flex flex-wrap items-center gap-2 border-t border-line pt-6","children":[["$","span",null,{"className":"font-display text-xs font-semibold uppercase tracking-[0.3em] text-ink-faint","children":"Tags"}],[["$","$L5","系統",{"href":"/tags/系統/","className":"capsule capsule--accent text-[0.8rem]","children":["# ","系統"]}]]]}],["$","div",null,{"className":"mt-10","children":["$","nav",null,{"aria-label":"文章導覽","className":"grid grid-cols-1 gap-4 sm:grid-cols-2","children":[["$","$L5",null,{"href":"/post/前言/","className":"panel group relative flex min-h-[6.5rem] flex-col justify-center gap-2 overflow-hidden p-5 items-start text-left","children":[["$","img",null,{"src":"/SWGuide/covers/Loading_Squirrel_PC_E.png","alt":"","loading":"lazy","className":"absolute inset-0 h-full w-full object-cover opacity-30 transition-all duration-500 group-hover:scale-105 group-hover:opacity-45","aria-hidden":"true"}],["$","span",null,{"className":"absolute inset-0 bg-gradient-to-r from-[rgba(17,26,46,0.55)] via-[rgba(17,26,46,0.88)] to-[rgba(17,26,46,0.96)]","aria-hidden":"true"}],["$","span",null,{"className":"relative z-10 font-display text-xs font-semibold uppercase tracking-[0.3em] text-ink-faint transition-colors group-hover:text-cyan","children":"前一篇 PREV"}],["$","span",null,{"className":"relative z-10 line-clamp-2 font-bold leading-snug text-ink transition-colors group-hover:text-cyan","children":"前言"}]]}],["$","$L5",null,{"href":"/post/副本/漩渦試煉/","className":"panel group relative flex min-h-[6.5rem] flex-col justify-center gap-2 overflow-hidden p-5 items-end text-right","children":[["$","img",null,{"src":"/SWGuide/covers/Loading_Squirrel_PC_D.png","alt":"","loading":"lazy","className":"absolute inset-0 h-full w-full object-cover opacity-30 transition-all duration-500 group-hover:scale-105 group-hover:opacity-45","aria-hidden":"true"}],["$","span",null,{"className":"absolute inset-0 bg-gradient-to-l from-[rgba(17,26,46,0.55)] via-[rgba(17,26,46,0.88)] to-[rgba(17,26,46,0.96)]","aria-hidden":"true"}],["$","span",null,{"className":"relative z-10 font-display text-xs font-semibold uppercase tracking-[0.3em] text-ink-faint transition-colors group-hover:text-cyan","children":"後一篇 NEXT"}],["$","span",null,{"className":"relative z-10 line-clamp-2 font-bold leading-snug text-ink transition-colors group-hover:text-cyan","children":"漩渦試煉"}]]}]]}]}]]}],null]}],"$L19","$L1a","$L1b"]}]
-1c:I[4971,["898","static/chunks/898-dd3a73578fffcbfe.js","575","static/chunks/app/post/%5B...slug%5D/page-2db71988ea81d1dd.js"],"default"]
-1d:I[5435,["898","static/chunks/898-dd3a73578fffcbfe.js","575","static/chunks/app/post/%5B...slug%5D/page-2db71988ea81d1dd.js"],"default"]
-1e:I[1842,["898","static/chunks/898-dd3a73578fffcbfe.js","575","static/chunks/app/post/%5B...slug%5D/page-2db71988ea81d1dd.js"],"default"]
-19:["$","$L1c",null,{"enabled":false}]
-1a:["$","$L1d","/post/系統/排名篇/",{}]
-1b:["$","$L1e",null,{}]
+18:I[7066,["898","static/chunks/898-dd3a73578fffcbfe.js","575","static/chunks/app/post/%5B...slug%5D/page-7aeacfb4020e8f6e.js"],"default"]
+19:I[2692,["898","static/chunks/898-dd3a73578fffcbfe.js","575","static/chunks/app/post/%5B...slug%5D/page-7aeacfb4020e8f6e.js"],"default"]
+1a:T2e52,<h2 id="排名系統是什麼">排名系統是什麼<a class="heading-anchor" href="#排名系統是什麼" aria-label="排名系統是什麼">#</a></h2>
+<p>「排名」是依玩家在特定副本中的<strong>通關表現（時間、次數、擊殺數等）</strong> 換算分數，分數加總後產生名次，並依名次發放獎勵的賽季制度。</p>
+<p><img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E6%8E%92%E5%90%8D%E7%AF%87/file-20260623143303746.png" alt="" loading="lazy" decoding="async" width="73" height="86">
+<img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E6%8E%92%E5%90%8D%E7%AF%87/file-20260623143405882.png" alt="" loading="lazy" decoding="async" width="878" height="706">
+<img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E6%8E%92%E5%90%8D%E7%AF%87/file-20260623143429711.png" alt="" loading="lazy" decoding="async" width="877" height="707"></p>
+<ul>
+<li><strong>每個帳號僅有「代表角色」能參加排名</strong>，代表角色可在角色選擇畫面設定。</li>
+<li>賽季進行中若更換代表角色，<strong>該賽季已累積的分數會直接消失</strong>，請勿在賽季中途更換。</li>
+</ul>
+<h2 id="賽季與結算規則">賽季與結算規則<a class="heading-anchor" href="#賽季與結算規則" aria-label="賽季與結算規則">#</a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-wrap"><table><thead><tr><th>項目</th><th>規則</th></tr></thead><tbody><tr><td>截止時間</td><td>每週一 00:00（GMT+8:00）排名截止</td></tr><tr><td>結算時間</td><td>截止後 2 小時發送排名獎勵，同時進入下一賽季</td></tr><tr><td>計算範圍</td><td>截止前 2 小時內的遊戲紀錄<strong>不計入</strong>本賽季排名</td></tr><tr><td>領獎時機</td><td>須等<strong>下一個賽季開始後</strong>，才能在排名視窗點擊「領取獎勵」</td></tr><tr><td>時裝獎勵</td><td>排名獎勵取得的時裝<strong>僅可在當季使用</strong>，賽季結束後自動刪除</td></tr><tr><td>賽季時長</td><td>一周</td></tr></tbody></table></div>
+<ul>
+<li><strong>單人副本排名</strong>：分數以「同一角色」為單位結算，但帳號內所有角色的分數會合計成總排名。</li>
+<li><strong>組隊副本排名</strong>：不分角色，統一結算（隊伍整體表現）。</li>
+</ul>
+<h2 id="計分與同分判定規則">計分與同分判定規則<a class="heading-anchor" href="#計分與同分判定規則" aria-label="計分與同分判定規則">#</a></h2>
+<ul>
+<li><strong>統一所有排名副本的名次排序區間與對應配分</strong>（不同副本不再各自一套配分標準）。</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-wrap"><table><thead><tr><th>排名</th><th>分數</th></tr></thead><tbody><tr><td>1</td><td>100</td></tr><tr><td>2</td><td>99</td></tr><tr><td>3</td><td>98</td></tr><tr><td>4</td><td>97</td></tr><tr><td>5</td><td>96</td></tr><tr><td>6</td><td>95</td></tr><tr><td>7</td><td>94</td></tr><tr><td>8</td><td>93</td></tr><tr><td>9</td><td>92</td></tr><tr><td>10</td><td>91</td></tr><tr><td>11-20</td><td>89</td></tr><tr><td>21-30</td><td>87</td></tr><tr><td>31-40</td><td>85</td></tr><tr><td>41-50</td><td>80</td></tr><tr><td>51-前10%</td><td>75</td></tr><tr><td>前11%-20%</td><td>70</td></tr><tr><td>前21%-30%</td><td>65</td></tr><tr><td>前31%-40%</td><td>60</td></tr><tr><td>前41%-50%</td><td>55</td></tr><tr><td>前51%-70%</td><td>50</td></tr><tr><td>前71%-100%</td><td>45</td></tr></tbody></table></div>
+<ul>
+<li>當結算分數相同時,下列排名分數較高的角色可列於前位
+<ol>
+<li>隱匿藏身處英雄</li>
+<li>必然災禍</li>
+<li>貝栗洛絲個人排名</li>
+</ol>
+</li>
+<li>詳細配分表與同分準則可在遊戲內「排名」選單 →「同分處理準則」查看。</li>
+</ul>
+<h2 id="排名副本一覽">排名副本一覽<a class="heading-anchor" href="#排名副本一覽" aria-label="排名副本一覽">#</a></h2>
+<ol>
+<li>隱匿藏身處英雄
+<ul>
+<li><img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E6%8E%92%E5%90%8D%E7%AF%87/file-20260623144302106.png" alt="" loading="lazy" decoding="async" width="327" height="139"></li>
+<li><img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E6%8E%92%E5%90%8D%E7%AF%87/file-20260623144321657.png" alt="" loading="lazy" decoding="async" width="443" height="423"></li>
+</ul>
+</li>
+<li>必然災禍
+<ul>
+<li><img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E6%8E%92%E5%90%8D%E7%AF%87/file-20260623144341009.png" alt="" loading="lazy" decoding="async" width="321" height="137"></li>
+<li><img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E6%8E%92%E5%90%8D%E7%AF%87/file-20260623144452539.png" alt="" loading="lazy" decoding="async" width="440" height="430"></li>
+</ul>
+</li>
+<li>貝栗洛絲個人排名
+<ul>
+<li><img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E6%8E%92%E5%90%8D%E7%AF%87/file-20260623144430547.png" alt="" loading="lazy" decoding="async" width="318" height="133"></li>
+<li><img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E6%8E%92%E5%90%8D%E7%AF%87/file-20260623144419370.png" alt="" loading="lazy" decoding="async" width="440" height="435"></li>
+</ul>
+</li>
+</ol>
+<h3 id="已移除排名副本">已移除排名副本<a class="heading-anchor" href="#已移除排名副本" aria-label="已移除排名副本">#</a></h3>
+<h4 id="1-深淵漫步">1. 深淵漫步<a class="heading-anchor" href="#1-深淵漫步" aria-label="1. 深淵漫步">#</a></h4>
+<p><img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E6%8E%92%E5%90%8D%E7%AF%87/file-20260623144543429.png" alt="" loading="lazy" decoding="async" width="449" height="492"></p>
+<ul>
+<li>玩法：擊敗連續出現的怪物以累積分數；擊殺 Boss 級怪物後會連出下一隻 Boss，並延長計時 (類似公會副本)</li>
+<li>入場後需啟動前方機械裝置，倒數開始後怪物才會出現</li>
+<li>2024/11/21 改版已將「深淵漫步排名」與「組隊副本排名」整併移除</li>
+</ul>
+<h4 id="2-拉法酷巴">2. 拉法酷巴<a class="heading-anchor" href="#2-拉法酷巴" aria-label="2. 拉法酷巴">#</a></h4>
+<p><img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E6%8E%92%E5%90%8D%E7%AF%87/file-20260623144649132.png" alt="" loading="lazy" decoding="async" width="445" height="433"></p>
+<ul>
+<li>為 4 人組隊副本「隱匿藏身處」的單人版，部分機關佈置與怪物數值與組隊版不同。</li>
+<li>2024/11/21 改為拉法庫巴 - 英雄</li>
+</ul>
+<h4 id="3-破滅救贖">3. 破滅救贖<a class="heading-anchor" href="#3-破滅救贖" aria-label="3. 破滅救贖">#</a></h4>
+<p><img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E6%8E%92%E5%90%8D%E7%AF%87/file-20260623144811884.png" alt="" loading="lazy" decoding="async" width="446" height="432"></p>
+<ul>
+<li>2024/11/21 改為必然災禍</li>
+</ul>
+<h4 id="4-普雷瑪">4. 普雷瑪<a class="heading-anchor" href="#4-普雷瑪" aria-label="4. 普雷瑪">#</a></h4>
+<p><img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E6%8E%92%E5%90%8D%E7%AF%87/file-20260623144912109.png" alt="" loading="lazy" decoding="async" width="441" height="431"></p>
+<ul>
+<li>2024/11/21 改為悲劇的妖精</li>
+</ul>
+<h4 id="5-虛空祭壇組隊排名">5. 虛空祭壇（組隊排名）<a class="heading-anchor" href="#5-虛空祭壇組隊排名" aria-label="5. 虛空祭壇（組隊排名）">#</a></h4>
+<ul>
+<li>僅【專家】難度的關卡計入組隊排名，其他難度不計分。</li>
+<li>2024/11/21 移除</li>
+</ul>
+<h4 id="6-墮落之月組隊排名">6. 墮落之月（組隊排名）<a class="heading-anchor" href="#6-墮落之月組隊排名" aria-label="6. 墮落之月（組隊排名）">#</a></h4>
+<ul>
+<li>2024/11/21 移除</li>
+</ul>
+<h4 id="7-天真之夢ep2">7. 天真之夢EP.2<a class="heading-anchor" href="#7-天真之夢ep2" aria-label="7. 天真之夢EP.2">#</a></h4>
+<ul>
+<li>2021/11/11 不再為排名副本</li>
+</ul>
+<h2 id="入場方式">入場方式<a class="heading-anchor" href="#入場方式" aria-label="入場方式">#</a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-wrap"><table><thead><tr><th>方式</th><th>說明</th></tr></thead><tbody><tr><td>排名 UI 入場按鈕</td><td>排名介面新增各副本「入場按鈕」，<strong>持有對應挑戰券即可直接入場</strong>，不需先回主畫面找 NPC</td></tr><tr><td>傳統方式</td><td>仍可直接使用挑戰券道具入場</td></tr></tbody></table></div>
+<h3 id="主要挑戰券浣熊商店販售">主要挑戰券（浣熊商店販售）<a class="heading-anchor" href="#主要挑戰券浣熊商店販售" aria-label="主要挑戰券（浣熊商店販售）">#</a></h3>
+<p><img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E6%8E%92%E5%90%8D%E7%AF%87/file-20260623150453990.png" alt="" loading="lazy" decoding="async" width="1272" height="613"></p>
+<ul>
+<li>【排名】貝栗洛絲挑戰券</li>
+<li>【排名】隱匿藏身處英雄挑戰券</li>
+<li>【傳送門】必然災禍挑戰券</li>
+<li><del>【排名】泰弗里斯挑戰券</del></li>
+<li><del>【排名】普雷瑪挑戰券</del></li>
+<li><del>【排名】拉法酷巴挑戰券</del></li>
+<li><del>【傳送門】泰弗里斯挑戰券</del></li>
+<li>【排名】深淵漫步入場卷</li>
+</ul>
+<blockquote>
+<p>注意：上述券改版前後<strong>仍可使用</strong>，但部分券（如深淵漫步入場卷）已不再影響排名階級，僅作一般入場用途。</p>
+</blockquote>
+<h2 id="獎勵">獎勵<a class="heading-anchor" href="#獎勵" aria-label="獎勵">#</a></h2>
+<p><img src="/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E6%8E%92%E5%90%8D%E7%AF%87/file-20260623151958155.png" alt="" loading="lazy" decoding="async" width="948" height="548"></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-wrap"><table><thead><tr><th>排名</th><th>獎勵</th><th>【排名】浣熊獎牌</th><th>10,000BP 寶箱</th></tr></thead><tbody><tr><td>1</td><td>天空的證明</td><td>100</td><td>3</td></tr><tr><td>2</td><td>暗夜的證明</td><td>100</td><td>3</td></tr><tr><td>3-5</td><td>聖火的證明</td><td>100</td><td>3</td></tr><tr><td>6-10</td><td></td><td>95</td><td>2</td></tr><tr><td>前11%-20%</td><td></td><td>90</td><td>2</td></tr><tr><td>前21%-30%</td><td></td><td>85</td><td>2</td></tr><tr><td>前31%-40%</td><td></td><td>80</td><td>2</td></tr><tr><td>前41%-50%</td><td></td><td>75</td><td>2</td></tr><tr><td>前51%-70%</td><td></td><td>70</td><td>1</td></tr><tr><td>前71%-100%</td><td></td><td>50</td><td>1</td></tr></tbody></table></div>
+<h2 id="相關資料">相關資料<a class="heading-anchor" href="#相關資料" aria-label="相關資料">#</a></h2>
+<ul>
+<li><a href="https://forum.gamer.com.tw/C.php?bsn=21911&#x26;snA=7990" target="_blank" rel="noopener noreferrer">https://forum.gamer.com.tw/C.php?bsn=21911&#x26;snA=7990</a></li>
+<li><a href="https://forum.gamer.com.tw/C.php?bsn=21911&#x26;snA=9085" target="_blank" rel="noopener noreferrer">https://forum.gamer.com.tw/C.php?bsn=21911&#x26;snA=9085</a></li>
+<li><a href="https://forum.gamer.com.tw/C.php?bsn=21911&#x26;snA=8695" target="_blank" rel="noopener noreferrer">https://forum.gamer.com.tw/C.php?bsn=21911&#x26;snA=8695</a></li>
+<li><a href="https://forum.gamer.com.tw/C.php?bsn=21911&#x26;snA=8396" target="_blank" rel="noopener noreferrer">https://forum.gamer.com.tw/C.php?bsn=21911&#x26;snA=8396</a></li>
+<li><a href="https://forum.gamer.com.tw/C.php?bsn=21911&#x26;snA=8267" target="_blank" rel="noopener noreferrer">https://forum.gamer.com.tw/C.php?bsn=21911&#x26;snA=8267</a></li>
+<li><a href="https://forum.gamer.com.tw/C.php?bsn=21911&#x26;snA=7165" target="_blank" rel="noopener noreferrer">https://forum.gamer.com.tw/C.php?bsn=21911&#x26;snA=7165</a></li>
+<li><a href="https://forum.gamer.com.tw/C.php?bsn=21911&#x26;snA=6978" target="_blank" rel="noopener noreferrer">https://forum.gamer.com.tw/C.php?bsn=21911&#x26;snA=6978</a></li>
+</ul>e:["$","div",null,{"className":"mx-auto w-full max-w-6xl px-4 py-12","children":[["$","div",null,{"className":"flex items-start gap-10","children":[["$","article",null,{"className":"mx-auto w-full min-w-0 max-w-4xl flex-1","children":[["$","nav",null,{"aria-label":"麵包屑","className":"flex flex-wrap items-center gap-2 text-sm text-ink-faint","children":[["$","$L5",null,{"href":"/","className":"transition-colors hover:text-cyan","children":"首頁"}],[["$","span",null,{"aria-hidden":"true","className":"text-ink-faint","children":"›"}],["$","$L5",null,{"href":"/categories/排名/","className":"transition-colors hover:text-cyan","children":"排名"}]],["$","span",null,{"aria-hidden":"true","className":"text-ink-faint","children":"›"}],["$","span",null,{"className":"min-w-0 truncate text-ink-dim","children":"排名篇"}]]}],["$","header",null,{"className":"mt-5 space-y-4","children":[["$","h1",null,{"className":"text-3xl font-black leading-tight tracking-wide text-ink sm:text-4xl","children":"排名篇"}],["$","div",null,{"className":"flex flex-wrap items-center gap-x-3 gap-y-2","children":[[["$","$L5","排名",{"href":"/categories/排名/","className":"capsule text-[0.78rem]","children":"排名"}]],["$","p",null,{"className":"font-display text-xs font-semibold uppercase tracking-[0.22em] text-ink-faint","children":["發布 ","2026-06-17"," · ",1132," 字"]}]]}]]}],["$","details",null,{"className":"panel panel-static mt-8 px-5 py-4 xl:hidden","children":[["$","summary",null,{"className":"hud-chip cursor-pointer select-none list-none [&::-webkit-details-marker]:hidden","children":"目錄 INDEX"}],["$","div",null,{"className":"mt-4","children":["$","$L18",null,{"toc":[{"id":"排名系統是什麼","text":"排名系統是什麼","depth":2},{"id":"賽季與結算規則","text":"賽季與結算規則","depth":2},{"id":"計分與同分判定規則","text":"計分與同分判定規則","depth":2},{"id":"排名副本一覽","text":"排名副本一覽","depth":2},{"id":"已移除排名副本","text":"已移除排名副本","depth":3},{"id":"1-深淵漫步","text":"1. 深淵漫步","depth":4},{"id":"2-拉法酷巴","text":"2. 拉法酷巴","depth":4},{"id":"3-破滅救贖","text":"3. 破滅救贖","depth":4},{"id":"4-普雷瑪","text":"4. 普雷瑪","depth":4},{"id":"5-虛空祭壇組隊排名","text":"5. 虛空祭壇（組隊排名）","depth":4},{"id":"6-墮落之月組隊排名","text":"6. 墮落之月（組隊排名）","depth":4},{"id":"7-天真之夢ep2","text":"7. 天真之夢EP.2","depth":4},{"id":"入場方式","text":"入場方式","depth":2},{"id":"主要挑戰券浣熊商店販售","text":"主要挑戰券（浣熊商店販售）","depth":3},{"id":"獎勵","text":"獎勵","depth":2},{"id":"相關資料","text":"相關資料","depth":2}],"hideHeader":true}]}]]}],null,["$","div",null,{"className":"mt-8","children":[["$","$L19",null,{"lastmod":"2026-06-17T00:00:00.000Z"}],["$","div",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$1a"}}]]}],"$L1b","$L1c"]}],"$L1d"]}],"$L1e","$L1f","$L20"]}]
+21:I[4971,["898","static/chunks/898-dd3a73578fffcbfe.js","575","static/chunks/app/post/%5B...slug%5D/page-7aeacfb4020e8f6e.js"],"default"]
+22:I[5435,["898","static/chunks/898-dd3a73578fffcbfe.js","575","static/chunks/app/post/%5B...slug%5D/page-7aeacfb4020e8f6e.js"],"default"]
+23:I[1842,["898","static/chunks/898-dd3a73578fffcbfe.js","575","static/chunks/app/post/%5B...slug%5D/page-7aeacfb4020e8f6e.js"],"default"]
+1b:["$","div",null,{"className":"mt-10 flex flex-wrap items-center gap-2 border-t border-line pt-6","children":[["$","span",null,{"className":"font-display text-xs font-semibold uppercase tracking-[0.3em] text-ink-faint","children":"Tags"}],[["$","$L5","系統",{"href":"/tags/系統/","className":"capsule capsule--accent text-[0.8rem]","children":["# ","系統"]}]]]}]
+1c:["$","div",null,{"className":"mt-10","children":["$","nav",null,{"aria-label":"文章導覽","className":"grid grid-cols-1 gap-4 sm:grid-cols-2","children":[["$","$L5",null,{"href":"/post/副本/主要副本/墮落之月/","className":"panel group relative flex min-h-26 flex-col justify-center gap-2 overflow-hidden p-5 items-start text-left","children":[["$","img",null,{"src":"/SWGuide/covers/Loading_Squirrel_PC_F.png","alt":"","loading":"lazy","className":"absolute inset-0 h-full w-full object-cover opacity-30 transition-all duration-500 group-hover:scale-105 group-hover:opacity-45","aria-hidden":"true"}],["$","span",null,{"className":"absolute inset-0 bg-gradient-to-r from-[rgba(17,26,46,0.55)] via-[rgba(17,26,46,0.88)] to-[rgba(17,26,46,0.96)]","aria-hidden":"true"}],["$","span",null,{"className":"relative z-10 font-display text-xs font-semibold uppercase tracking-[0.3em] text-ink-faint transition-colors group-hover:text-cyan","children":"前一篇 PREV"}],["$","span",null,{"className":"relative z-10 line-clamp-2 font-bold leading-snug text-ink transition-colors group-hover:text-cyan","children":"墮落之月 - Lunar Fall"}]]}],["$","$L5",null,{"href":"/post/副本/漩渦試煉/","className":"panel group relative flex min-h-26 flex-col justify-center gap-2 overflow-hidden p-5 items-end text-right","children":[["$","img",null,{"src":"/SWGuide/covers/Loading_Squirrel_PC_D.png","alt":"","loading":"lazy","className":"absolute inset-0 h-full w-full object-cover opacity-30 transition-all duration-500 group-hover:scale-105 group-hover:opacity-45","aria-hidden":"true"}],["$","span",null,{"className":"absolute inset-0 bg-gradient-to-l from-[rgba(17,26,46,0.55)] via-[rgba(17,26,46,0.88)] to-[rgba(17,26,46,0.96)]","aria-hidden":"true"}],["$","span",null,{"className":"relative z-10 font-display text-xs font-semibold uppercase tracking-[0.3em] text-ink-faint transition-colors group-hover:text-cyan","children":"後一篇 NEXT"}],["$","span",null,{"className":"relative z-10 line-clamp-2 font-bold leading-snug text-ink transition-colors group-hover:text-cyan","children":"漩渦試煉"}]]}]]}]}]
+1d:["$","aside",null,{"className":"sticky top-24 hidden max-h-[calc(100vh-8rem)] w-64 shrink-0 overflow-y-auto pr-1 xl:block","children":["$","$L18",null,{"toc":"$e:props:children:0:props:children:0:props:children:2:props:children:1:props:children:props:toc"}]}]
+1e:["$","$L21",null,{"enabled":false}]
+1f:["$","$L22","/post/系統/排名篇/",{}]
+20:["$","$L23",null,{}]
 14:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 10:null
-1f:I[1319,[],"IconMark"]
-12:{"metadata":[["$","title","0",{"children":"排名篇 | Soulworker 靈魂行者退坑指南"}],["$","meta","1",{"name":"author","content":"TyrantRey"}],["$","link","2",{"rel":"alternate","type":"application/rss+xml","title":"Soulworker 靈魂行者退坑指南","href":"https://tyrantrey.github.io/SWGuide/index.xml"}],["$","meta","3",{"property":"og:title","content":"排名篇"}],["$","meta","4",{"property":"og:url","content":"https://tyrantrey.github.io/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E6%8E%92%E5%90%8D%E7%AF%87/"}],["$","meta","5",{"property":"og:image","content":"https://tyrantrey.github.io/SWGuide/covers/Loading_Squirrel_PC_G.png"}],["$","meta","6",{"property":"og:type","content":"article"}],["$","meta","7",{"property":"article:published_time","content":"2026-06-17T00:00:00.000Z"}],["$","meta","8",{"property":"article:modified_time","content":"2026-06-17T00:00:00.000Z"}],["$","meta","9",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","10",{"name":"twitter:title","content":"排名篇"}],["$","meta","11",{"name":"twitter:image","content":"https://tyrantrey.github.io/SWGuide/covers/Loading_Squirrel_PC_G.png"}],["$","link","12",{"rel":"icon","href":"/avatar/icon.webp"}],["$","$L1f","13",{}]],"error":null,"digest":"$undefined"}
+24:I[1319,[],"IconMark"]
+12:{"metadata":[["$","title","0",{"children":"排名篇 | Soulworker 靈魂行者退坑指南"}],["$","meta","1",{"name":"author","content":"TyrantRey"}],["$","link","2",{"rel":"alternate","type":"application/rss+xml","title":"Soulworker 靈魂行者退坑指南","href":"https://tyrantrey.github.io/SWGuide/index.xml"}],["$","meta","3",{"property":"og:title","content":"排名篇"}],["$","meta","4",{"property":"og:url","content":"https://tyrantrey.github.io/SWGuide/post/%E7%B3%BB%E7%B5%B1/%E6%8E%92%E5%90%8D%E7%AF%87/"}],["$","meta","5",{"property":"og:image","content":"https://tyrantrey.github.io/SWGuide/covers/Loading_Squirrel_PC_G.png"}],["$","meta","6",{"property":"og:type","content":"article"}],["$","meta","7",{"property":"article:published_time","content":"2026-06-17T00:00:00.000Z"}],["$","meta","8",{"property":"article:modified_time","content":"2026-06-17T00:00:00.000Z"}],["$","meta","9",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","10",{"name":"twitter:title","content":"排名篇"}],["$","meta","11",{"name":"twitter:image","content":"https://tyrantrey.github.io/SWGuide/covers/Loading_Squirrel_PC_G.png"}],["$","link","12",{"rel":"icon","href":"/avatar/icon.webp"}],["$","$L24","13",{}]],"error":null,"digest":"$undefined"}
 17:"$12:metadata"
